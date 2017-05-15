@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link href="style.css" rel="stylesheet" type="text/css"/>
@@ -7,24 +8,38 @@
     </head>
 
     <body>
-        <div style="text-align:center">
-            <p>
+    <div id="header">
+        <div id="logo">
             <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/220px-Venn_A_intersect_B.svg.png">
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/220px-Venn_A_intersect_B.svg.png">
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/220px-Venn_A_intersect_B.svg.png">
-            </p>
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/220px-Linear_regression.svg.png"
+            >
+            height="56" width="56"
+            max-height=100%>
         </div>
+        <div id="user-tools">
+            <a href="index.html">Home</a>
+            &nbsp; &nbsp; 
+            <a href="about.html">About</a>
+        </div>
+    </div>
+
 
         <h1>
             Basic Set Theory
         </h1>
 
-            <h2>
+            <figure>
+                <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/220px-Venn_A_intersect_B.svg.png">
+                <figcaption>
+                    Venn diagram of set intersection
+                </figcaption>
+            </figure>
+
+            <details>
+                <summary class="sum1">
                 What Is a Set?
-            </h2>
+                </summary>
                 <p>
                 <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Example_of_a_set.svg/220px-Example_of_a_set.svg.png">
@@ -53,9 +68,10 @@
                         a set.)
                 </ul>
 
-                <h3>
-                    Set membership
-                </h3>
+                <details>
+                    <summary class="sum2">
+                        Set membership
+                    </summary>
                     <p>
                         We can define a set by listing its members. The
                         notation is: 
@@ -71,10 +87,12 @@
                         <br>
                         A = {x: x is even}
                     </p>
+                </details>
 
-                <h3>
-                    Subsets 
-                </h3>
+                <details>
+                    <summary class="sum2">
+                        Subsets 
+                    </summary>
                     <p>
                         <img
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/150px-Venn_A_subset_B.svg.png">
@@ -113,10 +131,12 @@
                         O &sub; A
                         <br>
                     </p>
+                </details>
 
-                <h3>
-                    Some special sets
-                </h3>
+                <details>
+                    <summary class="sum2">
+                        Some special sets
+                    </summary>
                     <ul>
                         <li>The empty set: &empty;
                             <br>This set has no members. It is a subset of
@@ -126,24 +146,30 @@
                         <li>The set of all rational numbers: &#8474;
                         <li>The set of all real numbers: &#8477;
                     </ul>
+                </details>
+            </details>
     
-            <h2>
+            <details>
+                <summary class="sum1">
                 Operations on Sets
-            </h2>
+                </summary>
     
-                <h3>
-                    Set equality
-                </h3>
+                <details>
+                    <summary class="sum2">
+                        Set equality
+                    </summary>
                     <p>
                         We say two sets are equal if they contain the same
                         members. So, if A = {1, 2, 3} and B = {3, 2, 1}, then
                         we can write A = B. (Order does not matter!) 
                     </p>
+                </details>
 
         
-                <h3>
-                    Union of sets
-                </h3>
+                <details>
+                    <summary class="sum2">
+                        Union of sets
+                    </summary>
                     <p>
                         The union operator combines two sets so that the new
                         set contains all of the elements of each of the two. 
@@ -162,11 +188,13 @@
                         <br>
                         P = A &cup; Y
                     </p>
+                </details>
 
     
-                <h3>
-                    Intersection of sets
-                </h3>
+                <details>
+                    <summary class="sum2">
+                        Intersection of sets
+                    </summary>
                     <p>
                         The intersection of two sets contains only the elements
                         that are in <em>both</em> sets. So if R = {the states
@@ -187,11 +215,13 @@
                         <br>
                         S = R &cap; D
                     </p>
+                </details>
 
     
-                <h3>
-                    Complement of a set
-                </h3>
+                <details>
+                    <summary class="sum2">
+                        Complement of a set
+                    </summary>
                     <p>
                     We can define the <em>universe</em> of some group of sets
                     as the collection of all possible members. So if we were
@@ -210,104 +240,116 @@
                     O &cap; R = &empty;
 
                     </p>
+                </details>
+            </details>
 
     
-            <h2>
+            <details>
+                <summary class="sum1">
                 Venn Diagrams
-            </h2>
+                </summary>
                 <p>
                 <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Venn_diagram_gr_la_ru.svg/220px-Venn_diagram_gr_la_ru.svg.png">
                 <br>
                 </p>
-                <h3>
-                    Basics
-                </h3>
-                <p>
-                These diagrams are a great way to get a picture of the ideas of
-                set theory. We depict a set as a circle.
-                <br>
-                <br>
-                Then, for the intersection of two sets, we have the diagram:
-                <br>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/180px-Venn0001.svg.png">
-                <br>
-                <br>
-                Or for the union of two sets, we have the diagram:
-                <br>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/180px-Venn0111.svg.png">
-                <br>
-                <br>
-                Finally, if A is the set in the left circle below, the
-                complement of A is:
-                <br>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Venn1010.svg/180px-Venn1010.svg.png">
-                </p>
+                <details>
+                    <summary class="sum2">
+                        Basics
+                    </summary>
+                    <p>
+                    These diagrams are a great way to get a picture of the ideas of
+                    set theory. We depict a set as a circle.
+                    <br>
+                    <br>
+                    Then, for the intersection of two sets, we have the diagram:
+                    <br>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/180px-Venn0001.svg.png">
+                    <br>
+                    <br>
+                    Or for the union of two sets, we have the diagram:
+                    <br>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/180px-Venn0111.svg.png">
+                    <br>
+                    <br>
+                    Finally, if A is the set in the left circle below, the
+                    complement of A is:
+                    <br>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Venn1010.svg/180px-Venn1010.svg.png">
+                    </p>
+                </details>
 
-                <h3>
-                    De Morgan's laws
-                </h3>
-                <p>
-
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Demorganlaws.svg/220px-Demorganlaws.svg.png">
-                <br>
-                <br>
-                In English: the bar over the symbols means essentially "not."
-                And what is comprised by each equation is the area in
-                <em>blue</em>.
-                <br>
-                <br>
-                So:
-                <br>
-                <b>Law 1</b>: what is not in the union of two sets is the intersection of
-                what is not in one of them and what is not in the other of
-                them.
-                <br>
-                <b>Example:</b>
-                U (our universe) = "people authorized to be on our campus"
-                <br>
-                "The people authorized to be on our campus
-                who are not <em>either</em> students
-                at St. Joseph's College <em>or</em> faculty at St. Joseph's
-                College" (a union of two sets) is equivalent to "The people 
-                authorized to be on our campus who are not on the list of
-                students <em>and</em> who are not on the list of faculty" (an
-                intersection of two sets). This set would include
-                administrators, workers at the cafeteria, visitors with passes,
-                security personnel, and so on.
-                <br>
-                <br>
-                <b>Law 2</b>: what is not in the intersection of two sets is
-                the union of what is not in one of them and
-                what is not in the other of them.
-                <br>
-                <b>Example:</b>
-                U (our universe) = "people authorized to be on our campus"
-                <br>
-                "The people authorized to be on our campus
-                who are not <em>both</em> students
-                at St. Joseph's College <em>and</em> faculty at St. Joseph's
-                College" (an intersection of two sets) is equivalent to "The people 
-                authorized to be on our campus who are not students <em>or</em> who are
-                not faculty" (a union of two sets). This set contains everyone
-                authorized on campus who is not a student <em>and</em> a faculty member.
-                (Last semester, that set might have excluded only me!)
-                </p>
-
+                <details>
+                    <summary class="sum2">
+                        De Morgan's laws
+                    </summary>
+                    <p>
     
-            <h2>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Demorganlaws.svg/220px-Demorganlaws.svg.png">
+                    <br>
+                    <br>
+                    In English: the bar over the symbols means essentially "not."
+                    And what is comprised by each equation is the area in
+                    <em>blue</em>.
+                    <br>
+                    <br>
+                    So:
+                    <br>
+                    <b>Law 1</b>: what is not in the union of 
+                    two sets is the intersection of
+                    what is not in one of them and what is not in the other of
+                    them.
+                    <br>
+                    <b>Example:</b>
+                    U (our universe) = "people authorized to be on our campus"
+                    <br>
+                    "The people authorized to be on our campus
+                    who are not <em>either</em> students
+                    at St. Joseph's College <em>or</em> faculty at St. Joseph's
+                    College" (a union of two sets) is equivalent to "The people 
+                    authorized to be on our campus who are not on the list of
+                    students <em>and</em> who are not on the list of faculty" (an
+                    intersection of two sets). This set would include
+                    administrators, workers at the cafeteria, visitors with passes,
+                    security personnel, and so on.
+                    <br>
+                    <br>
+                    <b>Law 2</b>: what is not in the intersection of two sets is
+                    the union of what is not in one of them and
+                    what is not in the other of them.
+                    <br>
+                    <b>Example:</b>
+                    U (our universe) = "people authorized to be on our campus"
+                    <br>
+                    "The people authorized to be on our campus
+                    who are not <em>both</em> students
+                    at St. Joseph's College <em>and</em> faculty at St. Joseph's
+                    College" (an intersection of two sets) is equivalent to "The people 
+                    authorized to be on our campus who 
+                    are not students <em>or</em> who are
+                    not faculty" (a union of two sets). This set contains everyone
+                    authorized on campus who is not a 
+                    student <em>and</em> a faculty member.
+                    (Last semester, that set might have excluded only me!)
+                    </p>
+                </details>
+            </details>
+    
+            <details>
+                <summary class="sum1">
                 External Links
-            </h2>
+                </summary>
                 <ul>
                     <li><a
                             href="https://www.khanacademy.org/math/statistics-probability/probability-library#basic-set-ops"> 
                             Khan Academy course on Set Theory
                         </a>
                 </ul>
+            </details>
 
     </body>
 </html>

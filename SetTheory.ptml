@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Basic Set Theory
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+
+        <h1>
+            Basic Set Theory
+        </h1>
+
+            <figure>
+                <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/220px-Venn_A_intersect_B.svg.png">
+                <figcaption>
+                    Venn diagram of set intersection
+                </figcaption>
+            </figure>
+
+            <details>
+                <summary class="sum1">
+                What Is a Set?
+                </summary>
+                <p>
+                <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Example_of_a_set.svg/220px-Example_of_a_set.svg.png">
+                </p>
+
+                <p>
+                Informally, a set is a collection of objects. Often, these are
+                mathematical objects, but they need not be. The
+                <a href="https://gcallah.github.io/statistics/Sampling.html">
+                    populations
+                </a>
+                studied in statistics can be regarded as sets.
+                <br>
+                <br>
+                <b>Examples</b>:
+                </p>
+                <ul>
+                    <li>All bachelors over 30
+                    <li>The odd integers
+                    <li>The mammals of North America
+                    <li>Automobiles produced in Japan
+                    <li>The prime numbers
+                    <li>The integers 4, 5, and 17
+                        <br>(This last illustrates that sets need not be some
+                        natural classification: we can put anything we want in
+                        a set.)
+                </ul>
+
+                <details>
+                    <summary class="sum2">
+                        Set membership
+                    </summary>
+                    <p>
+                        We can define a set by listing its members. The
+                        notation is: 
+                        <br>
+                        A = {1, 2, 3, 4, 5, 6}
+                        <br>
+                        This might be the set of possible rolls of a six-sided
+                        die.
+                        <br>
+                        <br>
+                        Or we can use a rule based definition. If we want all
+                        even integers, we could write:
+                        <br>
+                        A = {x: x is even}
+                    </p>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Subsets 
+                    </summary>
+                    <p>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/150px-Venn_A_subset_B.svg.png">
+                        <br>
+                        <br>
+                        Let us define A as "the set of all states in the U.S." 
+                        <br>
+                        Then we might define two more sets as R = "the set of
+                        states that voted for Romney in 2012," and O = "the set
+                        of all states that voted for Obama in 2012."
+                        <br>
+                        <br>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/ElectoralCollege2012.svg/348px-ElectoralCollege2012.svg.png">
+                        <br>
+                        <br>
+                        Then R and O are both <em>subsets</em> of A. We define
+                        a subset of a set A as any set that contains <em>only</em>
+                        members A.
+                        <br>
+                        Our notation here is:
+                        <br>
+                        R &sube; A
+                        <br>
+                        O &sube; A
+                        <br>
+                        <br>
+                        Note that under this definition, A is a subset of
+                        itself. We also can define <em>proper</em> subsets of A:
+                        these contain only members of A but not <em>all</em> members
+                        of A. Both R and O are also proper subsets of A. Our
+                        notation is:
+                        <br>
+                        R &sub; A
+                        <br>
+                        O &sub; A
+                        <br>
+                    </p>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        Some special sets
+                    </summary>
+                    <ul>
+                        <li>The empty set: &empty;
+                            <br>This set has no members. It is a subset of
+                            every other set.
+                        <li>The set of all natural numbers: &#8469;
+                        <li>The set of all integers: &#8484;
+                        <li>The set of all rational numbers: &#8474;
+                        <li>The set of all real numbers: &#8477;
+                    </ul>
+                </details>
+            </details>
+    
+            <details>
+                <summary class="sum1">
+                Operations on Sets
+                </summary>
+    
+                <details>
+                    <summary class="sum2">
+                        Set equality
+                    </summary>
+                    <p>
+                        We say two sets are equal if they contain the same
+                        members. So, if A = {1, 2, 3} and B = {3, 2, 1}, then
+                        we can write A = B. (Order does not matter!) 
+                    </p>
+                </details>
+
+        
+                <details>
+                    <summary class="sum2">
+                        Union of sets
+                    </summary>
+                    <p>
+                        The union operator combines two sets so that the new
+                        set contains all of the elements of each of the two. 
+                        <br>
+                        <br>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Angels_Stadium.JPG/300px-Angels_Stadium.JPG">
+                        <br>
+                        <br>
+                        If today's baseball game is the Angels versus the
+                        Yankees, then the "set of all players" (P) is the union of
+                        the "set of all Angels players" (A) and the "set of all
+                        Yankees players" (Y).
+                        <br>
+                        Our notation here is:
+                        <br>
+                        P = A &cup; Y
+                    </p>
+                </details>
+
+    
+                <details>
+                    <summary class="sum2">
+                        Intersection of sets
+                    </summary>
+                    <p>
+                        The intersection of two sets contains only the elements
+                        that are in <em>both</em> sets. So if R = {the states
+                        that have voted for a Republican candidate for
+                        president since 2000} and D = {the states
+                        that have voted for a Democratic candidate for 
+                        president since 2000} then their intersection is the
+                        states that are not pure red or pure blue in this map:
+                        <br>
+                        <br>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Red_state%2C_blue_state.svg/350px-Red_state%2C_blue_state.svg.png">
+                        <br>
+                        <br>
+                        This would be the set of swing states, S.
+                        <br>
+                        Our notation here is:
+                        <br>
+                        S = R &cap; D
+                    </p>
+                </details>
+
+    
+                <details>
+                    <summary class="sum2">
+                        Complement of a set
+                    </summary>
+                    <p>
+                    We can define the <em>universe</em> of some group of sets
+                    as the collection of all possible members. So if we were
+                    surveying American voters, then U = {all American voters}.
+                    <br>
+                    <br>
+                    Or if we are considering American states, then U = {all
+                    American states}.
+                    <br>
+                    <br>
+                    Then, if O = Obama states, and R = Romney states, those
+                    sets are <em>complements</em>. We have:
+                    <br>
+                    O &cup; R = U
+                    <br>
+                    O &cap; R = &empty;
+
+                    </p>
+                </details>
+            </details>
+
+    
+            <details>
+                <summary class="sum1">
+                Venn Diagrams
+                </summary>
+                <p>
+                <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Venn_diagram_gr_la_ru.svg/220px-Venn_diagram_gr_la_ru.svg.png">
+                <br>
+                </p>
+                <details>
+                    <summary class="sum2">
+                        Basics
+                    </summary>
+                    <p>
+                    These diagrams are a great way to get a picture of the ideas of
+                    set theory. We depict a set as a circle.
+                    <br>
+                    <br>
+                    Then, for the intersection of two sets, we have the diagram:
+                    <br>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/180px-Venn0001.svg.png">
+                    <br>
+                    <br>
+                    Or for the union of two sets, we have the diagram:
+                    <br>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/180px-Venn0111.svg.png">
+                    <br>
+                    <br>
+                    Finally, if A is the set in the left circle below, the
+                    complement of A is:
+                    <br>
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Venn1010.svg/180px-Venn1010.svg.png">
+                    </p>
+                </details>
+
+                <details>
+                    <summary class="sum2">
+                        De Morgan's laws
+                    </summary>
+                    <p>
+    
+                    <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Demorganlaws.svg/220px-Demorganlaws.svg.png">
+                    <br>
+                    <br>
+                    In English: the bar over the symbols means essentially "not."
+                    And what is comprised by each equation is the area in
+                    <em>blue</em>.
+                    <br>
+                    <br>
+                    So:
+                    <br>
+                    <b>Law 1</b>: what is not in the union of 
+                    two sets is the intersection of
+                    what is not in one of them and what is not in the other of
+                    them.
+                    <br>
+                    <b>Example:</b>
+                    U (our universe) = "people authorized to be on our campus"
+                    <br>
+                    "The people authorized to be on our campus
+                    who are not <em>either</em> students
+                    at St. Joseph's College <em>or</em> faculty at St. Joseph's
+                    College" (a union of two sets) is equivalent to "The people 
+                    authorized to be on our campus who are not on the list of
+                    students <em>and</em> who are not on the list of faculty" (an
+                    intersection of two sets). This set would include
+                    administrators, workers at the cafeteria, visitors with passes,
+                    security personnel, and so on.
+                    <br>
+                    <br>
+                    <b>Law 2</b>: what is not in the intersection of two sets is
+                    the union of what is not in one of them and
+                    what is not in the other of them.
+                    <br>
+                    <b>Example:</b>
+                    U (our universe) = "people authorized to be on our campus"
+                    <br>
+                    "The people authorized to be on our campus
+                    who are not <em>both</em> students
+                    at St. Joseph's College <em>and</em> faculty at St. Joseph's
+                    College" (an intersection of two sets) is equivalent to "The people 
+                    authorized to be on our campus who 
+                    are not students <em>or</em> who are
+                    not faculty" (a union of two sets). This set contains everyone
+                    authorized on campus who is not a 
+                    student <em>and</em> a faculty member.
+                    (Last semester, that set might have excluded only me!)
+                    </p>
+                </details>
+            </details>
+    
+            <details>
+                <summary class="sum1">
+                External Links
+                </summary>
+                <ul>
+                    <li><a
+                            href="https://www.khanacademy.org/math/statistics-probability/probability-library#basic-set-ops"> 
+                            Khan Academy course on Set Theory
+                        </a>
+                </ul>
+            </details>
+
+    </body>
+</html>

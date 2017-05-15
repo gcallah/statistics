@@ -10,17 +10,7 @@
     <body>
 
 <!--include menu.txt -->
-            <div style="text-align:center">
-                <p>
-				<img
-                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/NYW-confidence-interval.svg/222px-NYW-confidence-interval.svg.png"
-				height="100" width="160"><img
-                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/NYW-confidence-interval.svg/222px-NYW-confidence-interval.svg.png"
-				height="100" width="160"><img
-                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/NYW-confidence-interval.svg/222px-NYW-confidence-interval.svg.png"
-				height="100" width="160">
-                </p>
-            </div>
+            
 		<h1>
 			Introduction to Statistics and Probability
 		</h1>

@@ -1,29 +1,63 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 1.66em;
     color: #333;
     background: #fdf;
 }
 
+#header {
+    width: auto;
+    height: 3em;
+    padding: .5em 2em;
+    line-height: 2em;
+    background-color: #405;
+    color: #fcc;
+    overflow: hidden;
+}
+
+#header a:link, #header a:visited {
+    color: #fcc;
+}
+
+#header a:focus , #header a:hover {
+    text-decoration: underline;
+}
+
 table, th, td {
+    font-size: 1.2em;
+    border-collapse: collapse;
     border: 1px solid black;
     }
     th, td {
-            padding: 15px;
+            padding: 1em;
     }
 
 p {
-    margin: 8px 40px 8px 40px;
+    margin: .4em 3em .4em 3em;
+    font-size: 1.2rem;
+    padding: 0;
+    line-height: 140%;
+}
+
+hr {
+    margin: .8em 20em .8em 20em;
+}
+
+blockquote {
+    margin: .4em 6em .4em 6em;
+    font-size: 1.1em;
 }
 
 ol, ul, dl, li {
-    margin: 20px 12px 8px 12px;
+    margin: 1em 3em .4em 3em;
+    font-size: 1.2rem;
 }
 
-p {
-    padding: 0;
-    line-height: 140%;
+dt {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: .4em 3em .4em 1em;
 }
 
 h1,h2,h3,h4,h5 {
@@ -31,38 +65,86 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-    margin: 28px 8px 24px 8px;
+    margin: 0em 0em 1em 0em;
+    padding-bottom: .4em;
     text-align: center;
     font-weight: 300;
-    font-size: 32px;
-    background-color: #339;
-    color: #cfc;
+    font-size: 2em;
+    background-color: #405;
+    color: #fcc;
 }
 
 h2 {
-    font-size: 26px;
-    margin: 20px 24px 12px 24px;
-    color: #066;
+    text-align: center;
+    font-size: 1.6em;
+    margin: 1.2em 1em .6em 1em;
+    color: #903;
 }
 
 h2.subhead {
     font-weight:
     normal;
-    margin-top:
-    0;
 }
 
 h3 {
-    font-size: 20px;
-    margin: 20px 32px 12px 32px;
-    color: #633;
+    font-size: 1.4em;
+    margin: 1em 1.4em .6em 1.4em;
+    color: #137;
     font-weight: bold;
 }
 
 h4 {
-    font-size: 18px;
-    margin: 16px 40px 12px 40px;
+    font-size: 1.3em;
+    margin: .8em 1.6em .6em 1.6em;
     color: #339;
     font-weight: bold;
 }
 
+summary.sum1 {
+    font-size: 1.8em;
+    color: #903;
+    margin: .8em 1.2em .8em 1.2em;
+}
+
+summary.sum2 {
+    font-size: 1.6em;
+    color: #137;
+    margin: .6em 1.2em .6em 2em;
+}
+
+summary.sum3 {
+    font-size: 1.4em;
+    color: #339;
+    margin: .4em 1.2em .4em 2.8em;
+}
+
+summary.sum4 {
+    font-size: 1.2em;
+    color: #903;
+    margin: .4em 1.2em .4em 2.8em;
+}
+
+summary.menu_sum {
+    font-size: 1.4em;
+    color: #639;
+    margin: .5em 0em .5em 0em;
+}
+
+.lead_illus {
+    text-align: center;
+}
+
+#logo {
+    float: left;
+}
+
+#user-tools {
+    float: right;
+    padding: 0;
+    margin: 0 0 0 1em;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: right;
+}

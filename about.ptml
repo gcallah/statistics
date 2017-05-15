@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            About
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+
+        <h1>
+            About this site
+        </h1>
+            <p>
+                This site has been developed primarily by Dr. Eugene Callahan
+                at St. Joseph's College for use in the class
+                Introduction to Statistics.
+                <br />
+                
+                You may re-use any material you wish to so long as you give credit.
+            </p>
+
+    </body>
+</html>

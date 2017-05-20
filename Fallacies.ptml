@@ -8,20 +8,7 @@
     </head>
 
     <body>
-    <div id="header">
-        <div id="logo">
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/220px-Linear_regression.svg.png"
-            height="64" width="64"
-            max-height=100%>
-        </div>
-        <div id="user-tools">
-            <a href="index.html">Home</a>
-            &nbsp; &nbsp; 
-            <a href="about.html">About</a>
-        </div>
-    </div>
-
+<!--include menu.txt -->
         <h1>
             Statistical Fallacies
         </h1>

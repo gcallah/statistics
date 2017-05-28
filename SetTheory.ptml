@@ -39,6 +39,7 @@
                 </a>
                 studied in statistics can be regarded as sets.
                 <br>
+                No object can be included in a set multiple times.
                 <br>
                 <b>Examples</b>:
                 </p>
@@ -324,6 +325,8 @@
                     </p>
                 </details>
             </details>
+    
+<!--include quizzes/quiz_sets.qhtm -->
     
             <details>
                 <summary class="sum1">

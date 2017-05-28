@@ -1,0 +1,7 @@
+An example of a set would be|the even integers|birds that can't fly|birds that live on water|^all of the above
+What is wrong with the set definition: A = {1, 4, 5, 5, 5, 8, 9}?|^5 is included more than once|the set has too few members|some of the numbers are even but others are odd|all of the above
+"US States on the Atlantic" is a ___ of "US States":|superset|intersection|^subset|union
+The set {5, 8, 19} is ___ the set {19, 8, 5}:|greater than|^equal to|less than|can't say from the information given
+The union of {4, 16, 64} and {16, 64, 256} is|{4, 16, 16, 64, 64, 256}|{16, 64}|{4, 256}|^{4, 16, 64, 256}
+The intersection of {creatures that don't fly} and {birds} would include:|eagles and cats|^ostriches and penguins|slugs and mice|all of the above
+If our universe is {students} then the complement of {students at SJC} would be:|{students at St. Francis}|{people who aren't students}|{faculty at SJC}|^{all students except those at SJC}

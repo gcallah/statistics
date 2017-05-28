@@ -3,10 +3,10 @@ TEST = $(shell ls quiz*.txt | sed -e 's/txt/thtm/g')
 QUIZZES = $(shell ls quiz*.txt)
 
 %.qhtm: %.txt
-	../utils/quiz2html.py $< >$@
+	../utils/quiz2html.py $< \| >$@
 
 %.thtm: %.txt
-	../utils/quiz2test.py $< >$@
+	../utils/quiz2test.py $< \| >$@
 
 all: $(QINCS)
 

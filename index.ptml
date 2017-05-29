@@ -15,11 +15,10 @@
 			Introduction to Statistics and Probability
 		</h1>
             <div style="text-align:center">
-                <div style="text-align:center">
-                    "Be able to analyze statistics, which can be used to support<br>
+                <p class="lead-quote">
+                    "Be able to analyze statistics, which can be used to support
                     or undercut almost any argument." -- Marilyn vos Savant
-                    <br>
-                </div>
+                </p>
                 <hr>
 
                 <h2>
@@ -27,8 +26,8 @@
                 </h2>
 
                 <h3>
-                    <a href="WhatIsStatistics.html">
-                    What Is Statistics?
+                    <a href="Introduction.html">
+                    Introduction
                     </a>
                 </h3>
 
@@ -61,6 +60,8 @@
                     Interpretations of Probability
                     </a>
                 </h3>
+                    (Not covered Summer 2017.)
+                    <br />
 
                 <h3>
                     Probability Distributions

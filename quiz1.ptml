@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Quiz 1
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+
+        <h1>
+            Quiz 1
+        </h1>
+
+        <ol>
+<!--include quizzes/quiz1.thtm -->
+        </ol>
+    </body>
+</html>

@@ -1,1 +1,5 @@
 The two major uses of statistics are|gambling and vice|^descriptive and inferential|vacuous and flaccid|sports and weather
+Inferential statistics would include|determining the average height of an American adult|capturing the variation in weight among automobiles|^predicting the average lifespan of a smoker|giving the percentage of consumers who prefer Jiff
+5<sup>2</sup> + 8 * 5 = |^65|165|85|50
+For x from 1 to 4, &Sigma;x<sup>2</sup> = |25|^30|35|40
+For x from 1 to 4, (&Sigma;x)<sup>2</sup> = |30|45|80|^100

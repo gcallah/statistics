@@ -35,7 +35,7 @@ table, th, td {
 
 p {
     margin: .4em 3em .4em 3em;
-    font-size: 1.2rem;
+    font-size: 1.4em;
     padding: 0;
     line-height: 140%;
 }
@@ -56,7 +56,7 @@ blockquote {
 
 ol, ul, dl, li {
     margin: 1em 3em .4em 3em;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 dt {
@@ -81,7 +81,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.8em;
     margin: 1.2em 1em .6em 1em;
     color: #903;
 }
@@ -92,45 +92,45 @@ h2.subhead {
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin: 1em 1.4em .6em 1.4em;
     color: #137;
     font-weight: bold;
 }
 
 h4 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin: .8em 1.6em .6em 1.6em;
     color: #339;
     font-weight: bold;
 }
 
 summary.sum1 {
-    font-size: 1.6em;
+    font-size: 1.8em;
     color: #903;
     margin: .8em 1.2em .8em 1.2em;
 }
 
 summary.sum2 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: #137;
     margin: .6em 1.2em .6em 2em;
 }
 
 summary.sum3 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #339;
     margin: .4em 1.2em .4em 2.8em;
 }
 
 summary.sum4 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #903;
     margin: .4em 1.2em .4em 2.8em;
 }
 
 summary.menu_sum {
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #639;
     margin: .5em 0em .5em 0em;
 }

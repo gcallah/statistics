@@ -6,6 +6,21 @@
     </head>
 
     <body>
+    <div id="header">
+        <div id="logo">
+            <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/220px-Linear_regression.svg.png"
+            height="64" width="64"
+            max-height=100%>
+        </div>
+        <div id="user-tools">
+            <a href="index.html">Home</a>
+            &nbsp; &nbsp; 
+            <a href="about.html">About</a>
+        </div>
+    </div>
+
+
         <h1>Probability Basics</h1>
 
         <center>
@@ -25,9 +40,10 @@
             event C: "an even number was rolled" is 1/2. Etc.
         </p>
 
-        <h2>
-        Basics of probability:
-        </h2>
+        <details>
+            <summary class="sum1">
+                Basics of probability:
+            </summary>
             <p>
             <br>
     
@@ -66,9 +82,10 @@
                 <br>
                 </p>
 
-            <h3>
-            Expectations ( =expected values ):
-            </h3>
+            <details>
+                <summary class="sum2">
+                    Expectations ( =expected values ):
+                </summary>
                 <p>
                 <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Beta_first_moment.svg/308px-Beta_first_moment.svg.png">
@@ -123,35 +140,38 @@
                  <br>
                  <br>
                 </p>
-            <h4>
-             Useful properties of expectations:
-            </h4>
-             <p>
-             Linearity of expectation:
-             <br>
 
-             <br>
-             <em>
-                 E[a X + b Y] = a E[X] + b E[Y]
-             </em>
-             <br>
-             <br>
-             for any two events X, Y and constants a, b.
-             <br>
-             </p>
+                <details>
+                    <summary class="sum3">
+                     Useful properties of expectations:
+                    </summary>
+                     <p>
+                     Linearity of expectation:
+                     <br>
+        
+                     <br>
+                     <em>
+                         E[a X + b Y] = a E[X] + b E[Y]
+                     </em>
+                     <br>
+                     <br>
+                     for any two events X, Y and constants a, b.
+                     <br>
+                     </p>
+                </details>
+            </details>
 
-             <h3>
+            <details>
+                <summary class="sum2">
                  How Many Roads Must One Man Walk?
-             </h3>
+                </summary>
              <p>
              Finally, something that comes up very frequently:
              <br>
              <br>
 
-             Suppose you have a sequence of events, each of which
-             happens with
-             probability p, independent of the previous ones.  What is
-             the expected
+             Suppose you have a sequence of events, each of which happens with
+             probability p, independent of the previous ones.  What is the expected
              number of tries in the sequence you must observe until you
              see an event you like.
              <br>
@@ -221,6 +241,7 @@
              replacement, so the probabilities changes as you go along.]
              <br>
              <br>
-        </p>
+            </details>
+         </details>
     </body>
 </html>

@@ -63,24 +63,86 @@
                 <summary class="sum2">
                 Sometimes a number is just a name or a category
                 </summary>
+                <ul>
+                    <li>
+                        Nominal data
+                    </li>
+                    <li>
+                        "chemistry major," "math major," "business major"
+                    </li>
+                    <li>
+                        Any numbers assigned are just a code: no arithmetic
+                        significance. Can't subtract math major from chemistry
+                        major.
+                    </li>
+                    <li>
+                        We can ask for the mode, the most common value.
+                    </li>
+                </ul>
+
             </details>
 
             <details>
                 <summary class="sum2">
                 Sometimes a number tells us the order of events
                 </summary>
+                <ul>
+                    <li>
+                        Ordinal data
+                    </li>
+                    <li>
+                        She ranked 1st in our class; he ranked 15th, etc.
+                        <br />
+                        Or, he is the richest person in America.
+                        <br />
+                        Or, my team finished in seventh place.
+                    </li>
+                    <li>
+                        We can ask for the mode, but also for the median, the
+                        middle value.
+                    </li>
+                </ul>
+
             </details>
 
             <details>
                 <summary class="sum2">
                 Sometimes we can add and subtract numbers
                 </summary>
+                <ul>
+                    <li>
+                        Interval data
+                    </li>
+                    <li>
+                        Temperature is the best example: &deg;90 is &deg;
+                        hotter than &deg;45, but it is <b>not</b> twice as hot!
+                    </li>
+                    <li>
+                        We can ask for the mean.
+                        <br />
+                        (&Sigma;(all values)) / (number of values)
+                    </li>
+                </ul>
+
             </details>
 
             <details>
                 <summary class="sum2">
                 Some numbers can be multiplied and divided
                 </summary>
+                <ul>
+                    <li>
+                        Ratio data
+                    </li>
+                    <li>
+                        We have a true zero: example, weight.
+                    </li>
+                    <li>
+                        We can multiply and divide: 90 pounds <b>is</b> twice
+                        as heavy as 45 pounds.
+                    </li>
+                </ul>
+
             </details>
 
 
@@ -115,7 +177,8 @@
                     </figcaption>
                 </figure>
                 <figure>
-                    <img src="graphics/PieChart.png">
+                    <img src="graphics/PieChart.png"
+                        height="340" width="400">
                     <figcaption>
                         Pie chart
                     </figcaption>

@@ -1,0 +1,310 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Describing Nominal and Ordinal Data
+        </title>
+    </head>
+
+    <body>
+
+    <div id="header">
+        <div id="logo">
+            <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/220px-Linear_regression.svg.png"
+            height="64" width="64"
+            max-height=100%>
+        </div>
+        <div id="user-tools">
+            <a href="index.html">Home</a>
+            &nbsp; &nbsp; 
+            <a href="about.html">About</a>
+        </div>
+    </div>
+
+
+        <h1>
+            Describing Nominal and Ordinal Data
+        </h1>
+            
+
+        <h4>
+            Some possible descriptions of a data set.
+        <ul>
+            <li>
+                Central tendency: mode, median, mean.
+            </li>
+            <li>
+                Variability: range, variance, mean deviation, standard
+                deviation.
+            </li>
+            <li>
+                Shape: skew, kurtosis.
+            </li>
+        </ul>
+
+        <details>
+            <summary class="sum1">
+            All Numbers Are Not Equal
+            </summary>
+
+			<h4>
+			Scales of Measurement
+			</h4>
+            <ul>
+                <li>
+                <b>Nominal</b>
+                    <br />
+                	- a number signifies a category
+                    <br />
+                		ex: 1 = male, 2 = female
+                </li>
+                <li>
+                <b>Ordinal</b>
+                    <br />
+                	- there is an order to the categories or events
+                    <br />
+                		ex: first, second, third
+                </li>
+                <li>
+                <b>Interval</b>
+                    <br />
+                	- the magnitude between events is known but there is no true '0'
+                    <br />
+                		ex: &deg;F and &deg;C
+                        <br />
+                	- can add and subtract
+                </li>
+                <li>
+                <b>Ratio</b>
+                    <br />
+                	- the magnitude between events is known and there is a true ‘0’
+                    <br />
+                		ex: height and weight
+                        <br />
+                	- can add, subtract, multiply and divide
+                    <br />
+                </li>
+            </ul>
+
+            <details>
+                <summary class="sum2">
+                Sometimes a number is just a name or a category
+                </summary>
+                <ul>
+                    <li>
+                        Nominal data
+                    </li>
+                    <li>
+                        "chemistry major," "math major," "business major"
+                    </li>
+                    <li>
+                        Any numbers assigned are just a code: no arithmetic
+                        significance. Can't subtract math major from chemistry
+                        major.
+                    </li>
+                    <li>
+                        We can ask for the mode, the most common value.
+                    </li>
+                    <li>
+                        The is no measure of variability.
+                    </li>
+                </ul>
+
+            </details>
+
+            <details>
+                <summary class="sum2">
+                Sometimes a number tells us the order of events
+                </summary>
+                <ul>
+                    <li>
+                        Ordinal data
+                    </li>
+                    <li>
+                        She ranked 1st in our class; he ranked 15th, etc.
+                        <br />
+                        Or, he is the richest person in America.
+                        <br />
+                        Or, my team finished in seventh place.
+                    </li>
+                    <li>
+                        We can ask for the mode, but also for the median, the
+                        middle value.
+                    </li>
+                    <li>
+                        Range is a measure of the <b>spread</b> of ordinal
+                        data.
+                    </li>
+                </ul>
+
+            </details>
+
+            <details>
+                <summary class="sum2">
+                Sometimes we can add and subtract numbers
+                </summary>
+                <ul>
+                    <li>
+                        Interval data
+                    </li>
+                    <li>
+                        Temperature is the best example: &deg;90 is &deg;
+                        hotter than &deg;45, but it is <b>not</b> twice as hot!
+                    </li>
+                    <li>
+                        We can ask for the mean.
+                        <br />
+                        (&Sigma;(all values)) / (number of values)
+                    </li>
+                </ul>
+
+            </details>
+
+            <details>
+                <summary class="sum2">
+                Some numbers can be multiplied and divided
+                </summary>
+                <ul>
+                    <li>
+                        Ratio data
+                    </li>
+                    <li>
+                        We have a true zero: example, weight.
+                    </li>
+                    <li>
+                        We can multiply and divide: 90 pounds <b>is</b> twice
+                        as heavy as 45 pounds.
+                    </li>
+                </ul>
+
+            </details>
+
+
+        </details>
+
+        <details>
+            <summary class="sum1">
+            Seeing Clearly with Nominal Data
+            </summary>
+
+            <details>
+                <summary class="sum2">
+                It's time to begin learning to see better
+                </summary>
+                <ul>
+                    <li>
+                        Make a table of the number of items in each category.
+                    </li>
+                    <li>
+                        This is a <b>frequency distribution</b>.
+                    </li>
+                    <li>
+                        Example: Beings in the professor's house
+
+                        <table>
+                            <tr>
+                                <th>
+                                    Type of being
+                                </th>
+                                <th>
+                                    Frequency
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Humans
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Other mammals
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Reptiles
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    "Las Cucarachas"
+                                </td>
+                                <td>
+                                    15
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Demons, poltergeists, etc.
+                                </td>
+                                <td>
+                                    3
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+
+            </details>
+
+            <details>
+                <summary class="sum2">
+                Using graphs and charts
+                </summary>
+                <figure>
+                    <img src="graphics/ComputerUse.png"
+                        height="400" width="400">
+                    <figcaption>
+                        Bar chart
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="graphics/PieChart.png"
+                        height="340" width="400">
+                    <figcaption>
+                        Pie chart
+                    </figcaption>
+                </figure>
+            </details>
+
+
+        </details>
+
+        <details>
+            <summary class="sum1">
+            Seeing Clearly with Ordinal Data
+            </summary>
+
+            <details>
+                <summary class="sum2">
+                First, Second, Third: I see a pattern
+                </summary>
+                <ul>
+                    <li>
+                        Bar charts: <b>order</b> the bars!
+                    </li>
+                    <li>
+                        We can add range as a measure of variability.
+                        <br />
+                        If our sample contains the 4th, 9th, 10th, 16th, and
+                        42nd ranked student in our class, the range is 38.
+                    </li>
+                </ul>
+
+            </details>
+
+        </details>
+
+
+    </body>
+</html>

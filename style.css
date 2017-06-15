@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 1.66em;
+    font-size: 100%;
     color: #111;
     background: #fdf;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 table, th, td {
-    font-size: 1.2em;
+    font-size: 1.4em;
     border-collapse: collapse;
     border: 1px solid black;
     }

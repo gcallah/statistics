@@ -172,12 +172,6 @@
 
         <details>
             <summary class="sum1">
-            The Big Picture
-            </summary>
-        </details>
-
-        <details>
-            <summary class="sum1">
             Seeing Clearly with Nominal Data
             </summary>
 
@@ -185,6 +179,69 @@
                 <summary class="sum2">
                 It's time to begin learning to see better
                 </summary>
+                <ul>
+                    <li>
+                        Make a table of the number of items in each category.
+                    </li>
+                    <li>
+                        This is a <b>frequency distribution</b>.
+                    </li>
+                    <li>
+                        Example: Beings in the professor's house
+
+                        <table>
+                            <tr>
+                                <th>
+                                    Type of being
+                                </th>
+                                <th>
+                                    Frequency
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Humans
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Other mammals
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Reptiles
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    "Las Cucarachas"
+                                </td>
+                                <td>
+                                    15
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Demons, poltergeists, etc.
+                                </td>
+                                <td>
+                                    3
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+
             </details>
 
             <details>
@@ -219,6 +276,18 @@
                 <summary class="sum2">
                 First, Second, Third: I see a pattern
                 </summary>
+                <ul>
+                    <li>
+                        Bar charts: <b>order</b> the bars!
+                    </li>
+                    <li>
+                        We can add range as a measure of variability.
+                        <br />
+                        If our sample contains the 4th, 9th, 10th, 16th, and
+                        42nd ranked student in our class, the range is 38.
+                    </li>
+                </ul>
+
             </details>
 
         </details>

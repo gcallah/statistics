@@ -15,6 +15,21 @@
         </h1>
             
 
+        <h4>
+            Some possible descriptions of a data set.
+        <ul>
+            <li>
+                Central tendency: mode, median, mean.
+            </li>
+            <li>
+                Variability: range, variance, mean deviation, standard
+                deviation.
+            </li>
+            <li>
+                Shape: skew, kurtosis.
+            </li>
+        </ul>
+
         <details>
             <summary class="sum1">
             All Numbers Are Not Equal
@@ -78,6 +93,9 @@
                     <li>
                         We can ask for the mode, the most common value.
                     </li>
+                    <li>
+                        The is no measure of variability.
+                    </li>
                 </ul>
 
             </details>
@@ -100,6 +118,10 @@
                     <li>
                         We can ask for the mode, but also for the median, the
                         middle value.
+                    </li>
+                    <li>
+                        Range is a measure of the <b>spread</b> of ordinal
+                        data.
                     </li>
                 </ul>
 

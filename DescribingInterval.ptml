@@ -234,6 +234,12 @@
                     95% of population is within two &sigma; of the &mu;.
                 </figcaption>
             </figure>
+
+            <p>
+                The IQ test was designed around a normal distribution. The mean
+                is kept at 100, and the scores are calibrated so that 15 points
+                = 1 SD.
+            </p>
         </details>
 
 

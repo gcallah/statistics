@@ -1,0 +1,400 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Describing Interval and Ratio Data
+        </title>
+    </head>
+
+    <body>
+
+    <div id="header">
+        <div id="logo">
+            <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/220px-Linear_regression.svg.png"
+            height="64" width="64"
+            max-height=100%>
+        </div>
+        <div id="user-tools">
+            <a href="index.html">Home</a>
+            &nbsp; &nbsp; 
+            <a href="about.html">About</a>
+        </div>
+    </div>
+
+
+        <h1>
+            Describing Interval and Ratio Data
+        </h1>
+            
+        <details>
+            <summary class="sum1">
+            Introduction
+            </summary>
+
+            <figure>
+                    <img src="graphics/Skewness.png"
+                        width="400" height="160">
+                    <figcaption>
+                        Skewness
+                    </figcaption>
+            </figure>
+
+            <p>
+                Now let us look at the effects of skewness on our three
+                averages (measures of central tendency).
+            </p>
+
+            <figure>
+                    <img src="graphics/SkewedAverages.png"
+                        width="400" height="400">
+                    <figcaption>
+                        Skewness and the averages
+                    </figcaption>
+            </figure>
+
+            <p>
+                Many distributions show a bimodal pattern:
+            </p>
+
+            <figure>
+                <img src="graphics/BiModal.png"
+                        width="400" height="205">
+                <figcaption>
+                    A bimodal distribution
+                </figcaption>
+            </figure>
+        </details>
+
+        <details>
+            <summary class="sum1">
+            Measurement of the Variability of Interval and Ration Data
+            </summary>
+
+            <p>
+            <a href="https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/v/calculating-interquartile-range-iqr">
+                        Khan Academy course on spread
+            </a>
+            </p>
+
+            <details>
+                <summary class="sum2">
+                    When the Data Are Skewed
+                </summary>
+                <ul>
+                    <li>
+                        Central tendency: use the <b>median</b> not the mean.
+                    </li>
+                    <li>
+                        Variability: use the <b>range</b> not the standard
+                        deviation.
+                    </li>
+                </ul>
+
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    When the Data Are Normally Distributed
+                </summary>
+                <ul>
+                    <li>
+                        "How deep is this river?"
+                        <br />
+                        "Oh, on average only about two feet."
+                    </li>
+                    <li>
+                    </li>
+                </ul>
+
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Population and Sample: Statisticians' Way of Saying 'All'
+                    and 'Some'
+                </summary>
+                <ul>
+                    <li>
+                        <a href="Sampling.html">
+                            Sampling
+                        </a>
+                    </li>
+                    <li>
+                        <b>Range</b>
+                        <br />
+                        The spread of values.
+                        <br />
+                        Example: the range of grades was 63 - 98, or 35.
+                    </li>
+                    <li>
+                        <b>Variance</b>
+                        <br />
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Variance_visualisation.svg/220px-Variance_visualisation.svg.png">
+                
+                        <br>
+                        The average of the squared distance of all data
+                        points from the mean.
+                        <br>
+                        For each data point:
+                        <ul>
+                            <li>Calculate its distance from the mean.
+                            <li>Square that.
+                            <li>Sum those squared figures.
+                            <li>Divide that sum by <em>n</em>, the number of data points.
+                            <li>Take the square root of the variance.
+                        </ul>
+                        <br />
+                        <br>Why square the distance?
+                        <br>Consider two data samples, eaach with a mean of 5:
+                        <br><b>Sample 1:</b> 2, 3, 4, 5, 6, 7, 8
+                        <br><b>Sample 2:</b> 0, 5, 10
+                        <br>The sum of distances for Sample 1 is 12.
+                        <br>(3 + 2 + 1 + 0 + 1 + 2 + 3)
+                        <br>The sum of distances for Sample 2 is 10.
+                        <br>(5 + 0 + 5)
+                        <br>Looks like Sample 1 has more variability!
+                        <br>Instead sum the squares of the distances:
+                        <br>Sample 1: 9 + 4 + 1 + 0 + 1 + 4 + 9 = 28
+                    </li>
+                    <li>
+                        <b>Standard Deviation</b>
+                        <br />
+                        The square root of the variance.
+                        <figure>
+                        <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/325px-Standard_deviation_diagram.svg.png">
+                        </figure>
+                    </li>
+                </ul>
+
+                <p>
+                <a href="https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/v/range-variance-and-standard-deviation-as-measures-of-dispersion">
+                        Khan Academy on measures of spread
+                </a>
+                </p>
+            </details>
+
+        </details>
+
+        <details>
+            <summary class="sum1">
+            Reporting the Calculated Value of the Mean and Standard Deviation
+            </summary>
+
+            <p>
+            &mu; = 75.8, SD = 4.31
+            </p>
+
+            <h4>
+                Effects of arithmetic operations
+            </h4>
+                <ul>
+
+                    <li>
+                        Adding or subtracting a constant moves the whole
+                        distribution. The mean moves, the spread remains
+                        unchanged.
+                    </li>
+                    <li>
+                        Multiplying or dividing by a constant spreads or
+                        narrows the distribution. The standard deviation is
+                        multiplied (or divided) by that constant.
+                    </li>
+                </ul>
+
+        </details>
+
+        <details>
+            <summary class="sum1">
+                What You Always Wanted to Know About IQ
+            </summary>
+
+            <p>
+                We can divide a distribution into different segments:
+            </p>
+
+            <figure>
+                <img src="graphics/DistributionSegs.png"
+                    width="400" height="186">
+                <figcaption>
+                    Segments of a distribution
+                </figcaption>
+            </figure>
+
+            <p>
+                The standard deviation, in particular, divides the normal
+                distribution as follows:
+            </p>
+
+            <figure>
+                <img src="graphics/StdDevsOnBell.png"
+                    width="400" height="272">
+                <figcaption>
+                    Standard deviation and the normal distribution
+                </figcaption>
+            </figure>
+
+            <p>
+                And now let's look two standard deviations out:
+            </p>
+
+            <figure>
+                <img src="graphics/TwoStdDev.png"
+                    width="400" height="272">
+                <figcaption>
+                    95% of population is within two &sigma; of the &mu;.
+                </figcaption>
+            </figure>
+
+            <p>
+                The IQ test was designed around a normal distribution. The mean
+                is kept at 100, and the scores are calibrated so that 15 points
+                = 1 SD.
+            </p>
+        </details>
+
+
+
+        <details>
+            <summary class="sum1">
+                Descriptive Statistics: The <i>z</i> Score
+            </summary>
+
+            <table>
+                <tr>
+                    <th>
+                        Descriptive Statistics
+                    </th>
+                    <th>
+                        Nominal
+                    </th>
+                    <th>
+                        Ordinal
+                    </th>
+                    <th>
+                        Interval /
+                        <br />
+                        Ratio
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Frequency distr.
+                    </td>
+                    <td>
+                        Bar or pie chart
+                    </td>
+                    <td>
+                        Bar chart
+                    </td>
+                    <td>
+                        Histogram
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Central tendency
+                    </td>
+                    <td>
+                        Mode
+                    </td>
+                    <td>
+                        Median
+                    </td>
+                    <td>
+                        Mean
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Variability
+                    </td>
+                    <td>
+                        NA
+                    </td>
+                    <td>
+                        Range
+                    </td>
+                    <td>
+                        Standard devation
+                        <br />
+                        and <i>z</i> value
+                    </td>
+                </tr>
+            </table>
+
+            <details>
+                <summary class="sum2">
+                    A Little History and a Very Impressive Equation
+                </summary>
+
+                <p>
+                    There is a very complicated equation that describes the
+                    normal distribution.
+                    <br />
+                    We aren't going to worry about it.
+                    <br />
+                    However, we should know that the normal distribution:
+                </p>
+
+                <ul>
+                    <li>
+                        Is unimodal
+                    </li>
+                    <li>
+                        Is symmetrical
+                    </li>
+                    <li>
+                        Is bell-shaped
+                    </li>
+                    <li>
+                        Can be transformed into a standard normal curve.
+                    </li>
+                    <li>
+                        Has inflection points 1 SD above and below the mean.
+                    </li>
+                    <li>
+                        We use <i>z</i> scores in dealing with it.
+                    </li>
+                </ul>
+
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    The Standard, Very Important, <i>z</i> Score
+                </summary>
+
+                <p>
+                    <b>z score</b>: the number of standard deviation a score is
+                    from the population mean.
+                </p>
+
+                <figure>
+                    <img src="graphics/IQDevs.png"
+                        width="400" height="202">
+                    <figcaption>
+                        IQ scores and standard deviations
+                    </figcaption>
+                </figure>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Computing Apples and Oranges?
+                </summary>
+
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    The <i>z</i> Table
+                </summary>
+
+            </details>
+        </details>
+
+    </body>
+</html>

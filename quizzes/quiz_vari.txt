@@ -1,0 +1,10 @@
+Consider the data set: 4, 8, 12, 16. What is the mean?|8|^10|12|14
+What is the median?|8|^10|12|14
+What is the variance?|8|10|^20|80
+What is the standard deviation?|2.32|^4.47|8.23|20
+Consider the data set: 12, 16, 20,24. What is the mean?|18|16|12|^20
+What is the variance?|8|10|^20|80
+What is the standard deviation?|2.32|^4.47|8.23|20
+Consider the data set: 0, 5, 10, 15. What is the mean?|8|6|7|^7.5
+What is the variance?|^31.25|40|20|36.4
+What is the standard deviation?|^5.6|4.47|8.23|7.41

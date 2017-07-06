@@ -74,12 +74,49 @@
                 </li>
             </ul>
 
+            <hr>
+            <p>
+                Another thing to discuss: what is the height of the average
+                animal?
+                <br />
+                Number of insects is estimated to be roughly
+                1,000,000,000,000,000,000. By comparison, the number of humans
+                is 7,000,000,000.
+                <br />
+                What is the mean weight of all animals going to be?
+                <br />
+                What is the mean weight of all humans?
+                <br />
+                Do we expect to see a human 1000 times the mean weight? Do we
+                expect to see an animal 1000 times the mean weight?
+            </p>
+
+            <hr>
+            <p>
+                Another topic: error in scientific measurement and
+                the normal distribution.
+                <br />
+                The story of the English mint.
+            </p>
+
         </details>
 
         <details>
             <summary class="sum1">
             First Example
             </summary>
+
+            <figure>
+                <img src="equations/ChiSquared.gif">
+                <figcaption>
+                The equation for &chi;<sup>2</sup>
+                </figcaption>
+            </figure>
+            <p>
+                <i>f<sub>o</sub></i>: observed frequency
+                <br />
+                <i>f<sub>e</sub></i>: expected frequency
+            </p>
 
             <p>
                 The professor gets you to gamble with him, betting on tosses of
@@ -88,6 +125,16 @@
                 <br />
                 Should you accuse him of cheating?
             </p>
+
+            <p>
+                The &chi;<sup>2</sup> test typically uses the &alpha; = .05
+                cutoff for determining the <b>critical region</b> or the
+                <b>area of rejection</b>.
+                <br />
+                If the &chi;<sup>2</sup> value is greater than the value in our
+                table, we <i>reject</i> the null hypothesis.
+            </p>
+
         </details>
 
         <details>
@@ -96,7 +143,18 @@
             </summary>
 
             <p>
+                The professor gets you to gamble with him, betting on tosses of
+                his "fair" coin. He takes heads, and the first ten tosses come
+                up heads nine times.
+                <br />
+                Should you accuse him of cheating?
             </p>
+            <p>
+                Very important: <i>significant</i> means something very
+                specific in statistics: it just means the result is in the
+                (arbitrarily chosen) <i>critical region</i>.
+            </p>
+
         </details>
 
         <details>
@@ -104,18 +162,87 @@
             A Final Example
             </summary>
 
+            <p>
+                Important concept: <i>degrees of freedom</i> (<i>df</i>).
+                <br />
+                A toss of a die has <b>5</b> degrees of freedom: once you know
+                the die was <b>not</b> 1 - 5, you know it was 6.
+                <br />
+                With more degrees of freedom, we expect more difference from
+                the expected value.
+            </p>
+
+            <p>
+                <i>H</i><sub>0</sub>: we have fair dice.
+                <br />
+                <i>H</i><sub>1</sub>: we don't have fair dice.
+            </p>
+
+            <p>
+                We toss the die 100 times, and get 20 ones, 14 twos, 15 threes,
+                18 fours, 12 fives, and 21 sixes.
+            </p>
+
         </details>
 
         <details>
             <summary class="sum1">
                 Purpose and Limitations of the Chi-Square Test
             </summary>
+
+            <ol>
+                <li>
+                    The test compares observed and expected frequencies. This
+                    means we must <i>already know</i> an expected frequency!
+                </li>
+                <li>
+                    The test just says whether <i>something</i> unexpected
+                    occurred. We must examine the data to see what that was,
+                    e.g., too many sixes in our dice rolling.
+                </li>
+                <li>
+                    The test does not incorporate any measure of
+                    <i>effect size</i>, a topic taken up later in our textbook.
+                </li>
+                <li>
+                    Expected frequencies must be at least five for the test to
+                    apply. (We can see why if we contemplate tossing a coin a
+                    single time and trying to apply a &chi;<sup>2</sup> test to
+                    the result!)
+                </li>
+            </ol>
+            
         </details>
 
         <details>
             <summary class="sum1">
                 Assumptions of the Chi-Square Test
             </summary>
+
+            <ol>
+                <li>
+                    The data are in the form of frequencies.
+                </li>
+                <li>
+                    The observations are independent.
+                </li>
+            </ol>
+
+        </details>
+
+        <details>
+            <summary class="sum1">
+                Extras
+            </summary>
+
+            <ul>
+                <li>
+                    <a
+                        href="http://news.stanford.edu/news/2004/june9/diaconis-69.html">
+                        Are coin tosses really fair?
+                    </a>
+                </li>
+            </ul>
 
         </details>
 

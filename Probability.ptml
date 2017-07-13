@@ -1,0 +1,234 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>
+        </title>
+    </head>
+
+    <body>
+<!--include menu.txt -->
+
+        <h1>Probability Basics</h1>
+
+        <center>
+        <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/6sided_dice.jpg/300px-6sided_dice.jpg">
+        </center>
+        <br>
+        <p>
+            We will start with a very intuitive sense of what probability is,
+            and what an "event" is.
+            For example: We are using a fair die. The usual,
+            with six sides and numbers 1, 2, 3, 4, 5, 6 on its sides.
+            We assume each outcome is equally probable.
+            We throw it once: what happens is "an event."
+            Then the probability of the event A: "4 was rolled" is 1/6. The
+            probability of the event B: "5 was rolled" is 1/6. The probability of the
+            event C: "an even number was rolled" is 1/2. Etc.
+        </p>
+
+        <details>
+            <summary class="sum1">
+                Basics of probability:
+            </summary>
+            <p>
+            <br>
+    
+            For any two events A, B:
+            <br>
+            <em>
+                Prob(A or B) = Prob(A) + Prob(B) - Prob(A and B)
+            </em>
+            <br>
+    
+            From this comes a basic way to estimate probabilities:
+              <em>
+              Prob(A or B) <= Prob(A) + Prob(B)
+              </em>
+              or more generally:
+              <br>
+              <br>
+              <em>
+                Prob(A<sub>1</sub> or A<sub>2</sub> or ... or A<sub>n</sub>)
+                <= sum Prob (A<sub>i</sub>)
+              </em>
+              <br>
+              <br>
+    
+                Two events A, B are <em>mutually exclusive</em> if 
+                <em>
+                  Prob(A and B) = 0.
+                </em>
+                <br>
+                <br>
+    
+                Two events are <em>independent</em> if
+                <em>
+                  Prob(A and B) = Prob(A) * Prob(B).
+                </em>
+                <br>
+                </p>
+
+            <details>
+                <summary class="sum2">
+                    Expectations ( =expected values ):
+                </summary>
+                <p>
+                <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Beta_first_moment.svg/308px-Beta_first_moment.svg.png">
+                <br>
+                Expected value of a real variable <em>X</em> is defined as
+                <br>
+                <br>
+                 <img
+                 src=
+                 "https://raw.githubusercontent.com/gcallah/algorithms/master/graphics/Lec3Eq6.gif">
+                 <br>
+                 <br>
+                 where the sum is taken over all values <em>x</em> that <em>X</em> can take.
+                 <br>
+                 In words:
+                 <br>
+                 the expected value of a variable is the weighted sum of
+                 all its
+                 values, weighted according to the probability that they
+                 happen.
+                 <br>
+                 <br>
+    
+                 Example: You throw a die and get $10 if it comes out 1 and
+                 $0 if not.
+                 <br>
+                 <br>
+    
+                 The expected value of your reward is $10 * 1/6 + $0
+                 * 5/6 = $10/6.
+                 <br>
+                 <br>
+    
+                 You play the lottery.  You pay $1 for the ticket and win
+                 one million
+                 dollars with probability 1/(1 billion).  How much do you
+                 expect to
+                 win?  What's the expected balance?
+                 <br>
+                 <br>
+    
+                 Expected outcome = -$1 + Expected win.
+                 <br>
+                 <br>
+    
+                 Expected win = $1,000,000 * 1/(1 billion) + $0 * (the
+                 probability I do not win) = $1/1000 = 0.1cent.
+                 <br>
+                 <br>
+    
+                 So expected outcome = you lose 99.9 cents.
+                 <br>
+                 <br>
+                </p>
+
+                <details>
+                    <summary class="sum3">
+                     Useful properties of expectations:
+                    </summary>
+                     <p>
+                     Linearity of expectation:
+                     <br>
+        
+                     <br>
+                     <em>
+                         E[a X + b Y] = a E[X] + b E[Y]
+                     </em>
+                     <br>
+                     <br>
+                     for any two events X, Y and constants a, b.
+                     <br>
+                     </p>
+                </details>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                 How Many Roads Must One Man Walk?
+                </summary>
+             <p>
+             Finally, something that comes up very frequently:
+             <br>
+             <br>
+
+             Suppose you have a sequence of events, each of which happens with
+             probability p, independent of the previous ones.  What is the expected
+             number of tries in the sequence you must observe until you
+             see an event you like.
+             <br>
+             <br>
+
+             <b>Examples:</b>
+             <br>
+             <br>
+
+             Flip a coin several times.  How many tries until it comes
+             out heads.
+             <br>
+             <br>
+
+             Throw a pair of die.  How many tries until they give you
+             {6,6}?
+             <br>
+             <br>
+
+             Play the lottery.  How many tries until you win?
+             <br>
+             <br>
+
+             Probability event i happens is 
+             <em>
+                 (1 - p)<sup>i - 1</sup>p
+             </em>
+             In this case you need to
+             wait i steps.  So the expected number of steps to wait is:
+             <br>
+             <br>
+             <img
+             src=
+             "https://raw.githubusercontent.com/gcallah/algorithms/master/graphics/Lec3Eq5.gif">
+
+             <br>
+             <br>
+
+             It's a standard summation that adds up to 1/p. [A cute or
+             painful algebra exercise, depending on how you do it, I guess...]
+             <br>
+             <br>
+
+             so:
+             <br>
+             <br>
+
+             Fact: If you have a sequence of independent events, each
+             succeeding with probability p, the expected number of tries until the
+             first success is 1/p.
+             <br>
+             <br>
+
+             Or slightly more generally:
+             <br>
+             <br>
+
+             Fact: If you have a sequence of independent events, each
+             succeeding
+             with probability at least p, the expected number of tries
+             until the
+             first success is at most 1/p.
+             <br>
+             <br>
+
+             [The last one is useful if you are doing sampling without
+             replacement, so the probabilities changes as you go along.]
+             <br>
+             <br>
+            </details>
+         </details>
+    </body>
+</html>

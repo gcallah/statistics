@@ -134,6 +134,24 @@
                 <summary class="sum2">
                 Confidence Interval for <i>z</i>
                 </summary>
+
+                <p>
+                    When we do this test, we are asking, "Given a sample mean,
+                    how likely is that sample mean for a given range of
+                    population means?"
+                    <br />
+                    So we need to calculate &sigma;<sub>M</sub>, as in the
+                    earlier section. Then we use that SD and the <i>z</i> table to get
+                    our range.
+                </p>
+
+                <p>
+                    <a
+                    href="https://en.wikipedia.org/wiki/Confidence_interval">
+                    Wikipedia page on confidence intervals
+                    </a>
+                </p>
+
             </details>
 
         </details>

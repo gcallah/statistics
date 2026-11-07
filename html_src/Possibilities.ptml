@@ -76,12 +76,250 @@
             <summary class="sum1">
                 Permutations
             </summary>
+            <p>
+            A <b>permutation</b> is an arrangement of things in which
+            <em>order matters</em>. Putting the same items in a different
+            order gives a different permutation.
+            </p>
+
+            <details>
+                <summary class="sum2">
+                    Arranging everything: factorials
+                </summary>
+                <p>
+                <b>Example:</b> In how many orders can we line up three books,
+                A, B, and C, on a shelf?
+                <br />
+                We can simply list them all:
+                <br />
+                ABC, ACB, BAC, BCA, CAB, CBA
+                <br />
+                That is 6 orders. Or we can count the way we did with tree
+                diagrams: there are 3 choices for the first slot, then 2
+                books left for the second slot, then only 1 for the last.
+                So 3 * 2 * 1 = 6.
+                </p>
+                <p>
+                In general, <i>n</i> different things can be arranged in
+                <i>n</i> * (<i>n</i> - 1) * (<i>n</i> - 2) * ... * 2 * 1
+                ways. This product comes up so often that it has its own
+                name and symbol: <i>n</i> <b>factorial</b>, written
+                <i>n</i>!
+                </p>
+                <table>
+                    <tr>
+                        <th><i>n</i></th>
+                        <td>0</td><td>1</td><td>2</td><td>3</td><td>4</td>
+                        <td>5</td><td>6</td><td>10</td>
+                    </tr>
+                    <tr>
+                        <th><i>n</i>!</th>
+                        <td>1</td><td>1</td><td>2</td><td>6</td><td>24</td>
+                        <td>120</td><td>720</td><td>3,628,800</td>
+                    </tr>
+                </table>
+                <p>
+                Factorials grow very fast: ten people can stand in a line in
+                over three and a half million different orders!
+                <br />
+                Note that 0! = 1. As with the light switches on the
+                <a href="PascalsTriangle.html">Pascal's Triangle</a> page,
+                there is exactly one way to arrange nothing at all: leave it
+                alone.
+                </p>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Arranging some of the things
+                </summary>
+                <p>
+                Often we only fill a few places from a larger group.
+                <br />
+                <b>Example:</b> Eight runners are in a race. In how many ways
+                can the gold, silver, and bronze medals be awarded?
+                <br />
+                There are 8 possible gold medalists. Once gold is decided,
+                7 runners are left for silver, and then 6 for bronze:
+                <br />
+                8 * 7 * 6 = 336
+                </p>
+                <p>
+                The number of permutations of <i>k</i> things chosen from
+                <i>n</i> is written <sub><i>n</i></sub>P<sub><i>k</i></sub>,
+                and the formula is:
+                <br />
+                <sub><i>n</i></sub>P<sub><i>k</i></sub> =
+                <i>n</i>! / (<i>n</i> - <i>k</i>)!
+                <br />
+                For the race: 8! / 5! = 40,320 / 120 = 336. Dividing by
+                5! just cancels the runners who did not get a medal.
+                </p>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    When things can repeat
+                </summary>
+                <p>
+                If an item can be used more than once, every place has the
+                full set of choices.
+                <br />
+                <b>Example:</b> How many four-digit PINs are there? Each
+                digit can be any of 0 through 9, so:
+                <br />
+                10 * 10 * 10 * 10 = 10<sup>4</sup> = 10,000
+                <br />
+                So someone guessing a PIN at random has a 1 in 10,000
+                chance of getting it right on the first try.
+                <br />
+                In general, filling <i>k</i> places when each has <i>n</i>
+                choices gives <i>n</i><sup><i>k</i></sup> possibilities.
+                </p>
+            </details>
         </details>
 
         <details>
             <summary class="sum1">
                 Combinations
             </summary>
+            <p>
+            A <b>combination</b> is a selection of things in which
+            <em>order does not matter</em>: we only care which items are
+            chosen, not the order they were chosen in.
+            </p>
+
+            <details>
+                <summary class="sum2">
+                    From permutations to combinations
+                </summary>
+                <p>
+                <b>Example:</b> From the same eight runners, the top three
+                advance to the final. How many different groups of three
+                can advance?
+                <br />
+                We know there are 336 ordered ways to pick three runners.
+                But the group {Ana, Ben, Cal} shows up in that count once for
+                each of its 3! = 6 orders (ABC, ACB, BAC, BCA, CAB, CBA). So
+                each group is counted 6 times:
+                <br />
+                336 / 6 = 56 groups
+                </p>
+                <p>
+                The number of combinations of <i>k</i> things chosen from
+                <i>n</i> is read "<i>n</i> choose <i>k</i>" and written
+                <sub><i>n</i></sub>C<sub><i>k</i></sub> or
+                C(<i>n</i>, <i>k</i>). The formula is:
+                <br />
+                <sub><i>n</i></sub>C<sub><i>k</i></sub> =
+                <i>n</i>! / (<i>k</i>! (<i>n</i> - <i>k</i>)!)
+                <br />
+                That is, the permutations, divided by the <i>k</i>! orders
+                that we no longer care about.
+                </p>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Examples
+                </summary>
+                <ul>
+                    <li>
+                    A pizza place offers 6 toppings, and you may pick 2.
+                    <br />
+                    6! / (2! * 4!) = 15 different pizzas.
+                    </li>
+                    <li>
+                    A poker hand is 5 cards from a 52-card deck.
+                    <br />
+                    52 choose 5 = 2,598,960 possible hands.
+                    </li>
+                    <li>
+                    A lottery draws 6 numbers out of 49, in any order.
+                    <br />
+                    49 choose 6 = 13,983,816, so a single ticket has about a
+                    1 in 14 million chance of winning.
+                    </li>
+                </ul>
+                <p>
+                Notice that choosing 2 toppings to put <em>on</em> is the
+                same as choosing 4 to leave <em>off</em>: in general,
+                <i>n</i> choose <i>k</i> equals <i>n</i> choose
+                (<i>n</i> - <i>k</i>). The numbers in
+                <a href="PascalsTriangle.html">Pascal's Triangle</a> are
+                exactly these "choose" numbers: row <i>n</i>, position
+                <i>k</i> is <i>n</i> choose <i>k</i>.
+                </p>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Permutation or combination?
+                </summary>
+                <p>
+                Ask: <b>if I rearranged my choices, would I have a different
+                outcome?</b> If yes, order matters, and it is a permutation.
+                If no, it is a combination.
+                </p>
+                <table>
+                    <tr>
+                        <th>Situation</th>
+                        <th>Does order matter?</th>
+                        <th>Count</th>
+                    </tr>
+                    <tr>
+                        <td>President, VP, and treasurer from 10 members</td>
+                        <td>Yes</td>
+                        <td><sub>10</sub>P<sub>3</sub> = 720</td>
+                    </tr>
+                    <tr>
+                        <td>A 3-person committee from 10 members</td>
+                        <td>No</td>
+                        <td><sub>10</sub>C<sub>3</sub> = 120</td>
+                    </tr>
+                    <tr>
+                        <td>Order of 5 songs on a playlist</td>
+                        <td>Yes</td>
+                        <td>5! = 120</td>
+                    </tr>
+                    <tr>
+                        <td>2 pizza toppings out of 6</td>
+                        <td>No</td>
+                        <td><sub>6</sub>C<sub>2</sub> = 15</td>
+                    </tr>
+                </table>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    In Excel
+                </summary>
+                <ul>
+                    <li>
+                    <code>=FACT(5)</code> gives 5! = 120
+                    </li>
+                    <li>
+                    <code>=PERMUT(8, 3)</code> gives
+                    <sub>8</sub>P<sub>3</sub> = 336
+                    </li>
+                    <li>
+                    <code>=COMBIN(8, 3)</code> gives
+                    <sub>8</sub>C<sub>3</sub> = 56
+                    </li>
+                </ul>
+            </details>
+
+            <p>
+            <a
+                href="https://www.mathsisfun.com/combinatorics/combinations-permutations.html">
+                More on combinations and permutations.
+            </a>
+            <br />
+            <a
+                href="https://www.khanacademy.org/math/statistics-probability/counting-permutations-and-combinations">
+                Khan Academy on counting, permutations, and combinations.
+            </a>
+            </p>
         </details>
 
 <!-- quiz to come: quizzes/quiz_possibilities.txt does not exist yet -->

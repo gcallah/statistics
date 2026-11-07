@@ -8,3 +8,4 @@ utils/
 .superset/.server.pid
 .superset/.port
 .superset/config.local.json
+*.thtm

@@ -1,19 +1,27 @@
-HTMLFILES = $(shell ls *.ptml | sed -e 's/ptml/html/g')
-INCS = menu.txt
- 
-%.html: %.ptml $(INCS)
-	html_include.awk <$< >$@
+# Pages are written in html_src/*.ptml and built into the repo root.
+# Includes without a slash (menu.txt, head.txt) come from TEMPLATE_DIR;
+# includes with one (quizzes/quiz1.qhtm) are relative to the repo root.
+export TEMPLATE_DIR = templates
+UTIL_DIR = ./utils
 
-website: quizzes $(HTMLFILES) $(INCS)
-	cd quizzes ; make all
+SRCS = $(wildcard html_src/*.ptml)
+HTMLFILES = $(patsubst html_src/%.ptml,%.html,$(SRCS))
+INCS = $(TEMPLATE_DIR)/menu.txt $(TEMPLATE_DIR)/head.txt
+
+%.html: html_src/%.ptml $(INCS)
+	$(UTIL_DIR)/html_include.awk <$< >$@
+
+local: quizzes $(HTMLFILES)
+
+website: local
 	-git commit -a -m "HTML rebuild."
 	git push origin master
 
 quizzes:
-	cd quizzes ; make all
-
-local: $(HTMLFILES)
+	cd quizzes ; make all test
 
 clean:
-	touch *.ptml
+	touch html_src/*.ptml
 	cd quizzes ; make clean
+
+.PHONY: local website quizzes clean

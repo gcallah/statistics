@@ -3,3 +3,8 @@
 *.qhtm
 ScratchPad.xlsx
 IntroStatsPowerPoints/
+# Superset workspace state
+utils/
+.superset/.server.pid
+.superset/.port
+.superset/config.local.json

@@ -32,6 +32,66 @@
             <summary class="sum1">
             Availability Bias
             </summary>
+            <p>
+            We often judge how common or likely something is by how easily
+            examples of it come to mind. Psychologists Amos Tversky and
+            Daniel Kahneman called this the <b>availability heuristic</b>.
+            It is a handy shortcut, but it misleads us whenever some events
+            are much easier to remember than others.
+            </p>
+
+            <details>
+                <summary class="sum2">
+                    Examples
+                </summary>
+                <ul>
+                    <li>
+                    After a plane crash is in the news for a week, many
+                    people become more afraid of flying, and some drive
+                    instead, even though the drive is far more dangerous
+                    per mile traveled. The crash is vivid and
+                    memorable; the thousands of uneventful flights each day
+                    never make the news.
+                    </li>
+                    <li>
+                    Lottery winners are interviewed on TV; the millions of
+                    people who bought losing tickets are not. So winning
+                    "feels" much more likely than the 1 in 14 million odds we
+                    computed on the
+                    <a href="Possibilities.html">Possibilities</a> page.
+                    </li>
+                    <li>
+                    Ask people whether more English words <em>start</em>
+                    with the letter K or have K as their <em>third</em>
+                    letter. Most say "start with K," because those words are
+                    easier to call to mind. In fact, words with K in the
+                    third position are more common.
+                    </li>
+                </ul>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Why it is a statistical error
+                </summary>
+                <p>
+                The examples that come to mind are a <em>sample</em>, but
+                they are not a
+                <a href="Sampling.html">random sample</a>.
+                They are chosen by what is dramatic, recent, or
+                emotionally striking, and that is a biased way to sample.
+                <br />
+                <b>The remedy:</b> before deciding that something is common
+                or rare, ask what the actual counts or rates are, rather
+                than relying on what you happen to remember.
+                </p>
+            </details>
+
+            <p>
+            <a href="https://en.wikipedia.org/wiki/Availability_heuristic">
+                The availability heuristic on Wikipedia.
+            </a>
+            </p>
         </details>
 
         <details>
@@ -67,6 +127,123 @@
             <summary class="sum1">
             Discarding unfavorable data
             </summary>
+            <p>
+            A conclusion can only be as good as the data behind it. If the
+            data that would have argued <em>against</em> a conclusion are
+            left out, even honest arithmetic on what remains will mislead.
+            This can be done on purpose ("cherry picking"), or it can happen
+            without anyone intending it.
+            </p>
+
+            <details>
+                <summary class="sum2">
+                    Cherry picking
+                </summary>
+                <p>
+                Reporting only the results that support your case.
+                <br />
+                <b>Example:</b> A fund manager advertises "up 40% over the
+                last three years," choosing a starting date right at a
+                market low. Starting the chart a year earlier, at the peak,
+                might show a loss.
+                <br />
+                <b>Example:</b> A researcher removes a few data points as
+                "outliers," but only the ones that weaken the result.
+                </p>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Survivorship bias
+                </summary>
+                <figure>
+                    <img width="330"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Survivorship-bias.svg/500px-Survivorship-bias.svg.png"
+                    alt="A bomber with red dots marking where returning planes had been hit">
+                    <figcaption>
+                        Damage on the bombers that made it back.
+                        (Image: Martin Grandjean, McGeddon, US Air Force;
+                        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)
+                    </figcaption>
+                </figure>
+                <p>
+                Sometimes the unfavorable data are discarded by the world
+                before we ever see them: we only get to look at the cases
+                that "survived."
+                <br />
+                <b>Example:</b> In World War II, the military studied the
+                bullet holes on bombers returning from missions, and
+                considered adding armor where the holes were most common.
+                The statistician Abraham Wald pointed out that these were
+                the planes that <em>made it back</em>. The places with no
+                holes, such as the engines, were where hits brought a plane
+                down. That is where the armor was needed.
+                <br />
+                <b>Example:</b> "They don't make them like they used to!"
+                The old buildings and appliances we still see are the ones
+                that lasted. The badly made ones were torn down or thrown
+                out long ago.
+                <br />
+                <b>Example:</b> Average returns of mutual funds look better
+                than they really were if the funds that did badly and
+                closed are left out of the average.
+                </p>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Publication bias and multiple tests
+                </summary>
+                <p>
+                Studies that find a "significant" result are much more
+                likely to be published than studies that find nothing. The
+                studies that found nothing stay in a file drawer.
+                <br />
+                This matters because a test at the 5% significance level
+                will, by design, give a "significant" result about 1 time in
+                20 even when there is no real effect. Run 20 tests, report
+                only the one that "worked," and you have discarded the 19
+                pieces of unfavorable data that put it in context.
+                (See the <a href="ZTestTTest.html"><i>z</i> and <i>t</i>
+                tests</a> page for what significance means.)
+                </p>
+            </details>
+
+            <details>
+                <summary class="sum2">
+                    Protecting yourself
+                </summary>
+                <ul>
+                    <li>
+                    Ask what data were collected, not just what data are
+                    shown.
+                    </li>
+                    <li>
+                    Ask why a chart starts and ends where it does.
+                    </li>
+                    <li>
+                    Ask what happened to the cases that dropped out: the
+                    failed companies, the patients who left the study, the
+                    planes that did not return.
+                    </li>
+                    <li>
+                    In your own work, decide what you will measure and how
+                    you will handle outliers <em>before</em> you see the
+                    results, and report everything you tested.
+                    </li>
+                </ul>
+            </details>
+
+            <p>
+            <a href="https://en.wikipedia.org/wiki/Cherry_picking">Cherry picking</a>,
+            <a href="https://en.wikipedia.org/wiki/Survivorship_bias">survivorship bias</a>, and
+            <a href="https://en.wikipedia.org/wiki/Publication_bias">publication bias</a>
+            on Wikipedia.
+            <br />
+            <a href="https://xkcd.com/882/">
+                xkcd's "Significant": multiple testing in one comic.
+            </a>
+            </p>
         </details>
 
         <details>

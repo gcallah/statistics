@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Basic Set Theory
         </title>
@@ -15,8 +15,8 @@
         </h1>
 
             <figure>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/220px-Venn_A_intersect_B.svg.png">
+                <img width="220"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/250px-Venn_A_intersect_B.svg.png">
                 <figcaption>
                     Venn diagram of set intersection
                 </figcaption>
@@ -27,8 +27,8 @@
                 What Is a Set?
                 </summary>
                 <p>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Example_of_a_set.svg/220px-Example_of_a_set.svg.png">
+                <img width="220"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Example_of_a_set.svg/250px-Example_of_a_set.svg.png">
                 </p>
 
                 <p>
@@ -87,8 +87,8 @@
                         Subsets 
                     </summary>
                     <p>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/150px-Venn_A_subset_B.svg.png">
+                        <img width="150"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/250px-Venn_A_subset_B.svg.png">
                         <br>
                         <br>
                         Let us define A as "the set of all states in the U.S." 
@@ -98,8 +98,8 @@
                         of all states that voted for Obama in 2012."
                         <br>
                         <br>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/ElectoralCollege2012.svg/348px-ElectoralCollege2012.svg.png">
+                        <img width="348"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/ElectoralCollege2012.svg/500px-ElectoralCollege2012.svg.png">
                         <br>
                         <br>
                         Then R and O are both <em>subsets</em> of A. We define
@@ -169,8 +169,8 @@
                         set contains all of the elements of each of the two. 
                         <br>
                         <br>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Angels_Stadium.JPG/300px-Angels_Stadium.JPG">
+                        <img width="300"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Angels_Stadium.JPG/330px-Angels_Stadium.JPG">
                         <br>
                         <br>
                         If today's baseball game is the Angels versus the
@@ -199,8 +199,8 @@
                         states that are not pure red or pure blue in this map:
                         <br>
                         <br>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Red_state%2C_blue_state.svg/350px-Red_state%2C_blue_state.svg.png">
+                        <img width="350"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Red_states_and_blue_states_of_the_US_based_on_data_from_the_2008%2C_2012%2C_2016_and_2020_presidential_elections.svg/500px-Red_states_and_blue_states_of_the_US_based_on_data_from_the_2008%2C_2012%2C_2016_and_2020_presidential_elections.svg.png">
                         <br>
                         <br>
                         This would be the set of swing states, S.
@@ -243,8 +243,8 @@
                 Venn Diagrams
                 </summary>
                 <p>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Venn_diagram_gr_la_ru.svg/220px-Venn_diagram_gr_la_ru.svg.png">
+                <img width="220"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Venn_diagram_gr_la_ru.svg/250px-Venn_diagram_gr_la_ru.svg.png">
                 <br>
                 </p>
                 <details>
@@ -258,21 +258,21 @@
                     <br>
                     Then, for the intersection of two sets, we have the diagram:
                     <br>
-                    <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/180px-Venn0001.svg.png">
+                    <img width="180"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/250px-Venn0001.svg.png">
                     <br>
                     <br>
                     Or for the union of two sets, we have the diagram:
                     <br>
-                    <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/180px-Venn0111.svg.png">
+                    <img width="180"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/250px-Venn0111.svg.png">
                     <br>
                     <br>
                     Finally, if A is the set in the left circle below, the
                     complement of A is:
                     <br>
-                    <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Venn1010.svg/180px-Venn1010.svg.png">
+                    <img width="180"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Venn1010.svg/250px-Venn1010.svg.png">
                     </p>
                 </details>
 
@@ -284,8 +284,8 @@
                     </summary>
                     <p>
     
-                    <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Demorganlaws.svg/220px-Demorganlaws.svg.png">
+                    <img width="220"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Demorganlaws.svg/250px-Demorganlaws.svg.png">
                     <br>
                     <br>
                     In English: the bar over the symbols means essentially "not."
@@ -335,7 +335,12 @@
                 </details>
             </details>
     
+        <details>
+            <summary class="sum1">
+                Quiz
+            </summary>
 <!--include quizzes/quiz_sets.qhtm -->
+        </details>
     
             <details>
                 <summary class="sum1">

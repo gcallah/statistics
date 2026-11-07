@@ -1,243 +1,257 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
-			Introduction to Statistics and Probability
+            Introduction to Statistics and Probability
         </title>
     </head>
 
     <body>
 
 <!--include menu.txt -->
-            
-		<h1>
-			Introduction to Statistics and Probability
-		</h1>
-            <div style="text-align:center">
-                <p class="lead-quote">
-                    "Be able to analyze statistics, which can be used to support
-                    or undercut almost any argument." -- Marilyn vos Savant
+
+        <section class="hero">
+            <div class="hero-text">
+                <p class="eyebrow">
+                    Sets &middot; Probability &middot; Description &middot; Inference
                 </p>
-                <hr>
-
-                <h2>
-                    Topics
-                </h2>
-
-                <h3>
-                    <a href="Introduction.html">
-                    Introduction
+                <h1 class="toc-head">
+                    Introduction to Statistics and Probability
+                </h1>
+                <p class="hero-lead">
+                    Course notes on sets, counting, and probability; on
+                    describing nominal, ordinal, interval, and ratio data;
+                    and on testing for differences with chi-square,
+                    <i>z</i>, and <i>t</i> tests.
+                </p>
+                <p class="hero-actions">
+                    <a class="button primary" href="#topics">
+                        Browse the topics
                     </a>
-                </h3>
-
-                <h3>
-                    <a href="SetTheory.html">
-                    Basic Set Theory
+                    <a class="button" href="https://github.com/gcallah/statistics">
+                        View on GitHub
                     </a>
-                </h3>
-
-                <h3>
-                    <a href="Possibilities.html">
-                    Possibilities
-                    </a>
-                </h3>
-
-                    <h4>
-                        <a href="PascalsTriangle.html">
-                        Pascal's Triangle
-                        </a>
-                    </h4>
-
-                <h3>
-                    <a href="Probability.html">
-                    Probabilities
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="DescribingNominal.html">
-                    Describing Nominal and Ordinal Data
-                    </a>
-                </h3>
-                    (Chapter 2 of our textbook.)
-
-                <h3>
-                    <a href="DescribingInterval.html">
-                    Describing Interval and Ratio Data
-                    </a>
-                </h3>
-                    (Chapters 3 & 4 of our textbook.)
-
-                <h3>
-                    Finding Differences with Nominal Data:
-                    <br />
-                    <a href="GoodnessChi.html">
-                    Chi-Square Test of Fit
-                    </a>
-                </h3>
-                    (Chapters 7 of our textbook.)
-
-                <h3>
-                    Finding Differences with Nominal Data:
-                    <br />
-                    Chi-Square Test of Independence
-                </h3>
-                    (Chapters 8 of our textbook.)
-
-                <h3>
-                    Finding Differences with Interval and Ratio Data:
-                    <br />
-                    <a href="ZTestTTest.html">
-                    One Sample <i>z</i> and <i>t</i> Tests
-                    </a>
-                </h3>
-                    (Chapters 9 of our textbook.)
-
-                <h3>
-                    <a href="FatTails.html">
-                    Fat Tails
-                    </a>
-                </h3>
-
-                <h3>
-                    <a href="Fallacies.html">
-                    Statistical Fallacies
-                    </a>
-                </h3>
-
-                <h3>
-                    Probability Distributions
-                </h3>
-
-                <h3>
-                    <a
-                        href="ProbabilityInterps.html">
-                    Interpretations of Probability
-                    </a>
-                </h3>
-                    (Not covered Summer 2017.)
-                    <br />
-
-                <h3>
-                    <a
-                        href="StatsQuickSummary.html">
-                    Statistics: Characteristics of a Distribution
-                    </a>
-                </h3>
-                    (Not covered Summer 2017.)
-                    <br />
-
-                <h3>
-                    <a href="Sampling.html">
-                    Sampling
-                    </a>
-                </h3>
-                    (Not covered Summer 2017.)
-                    <br />
-
-                <h3>
-                    <a href="Correlation.html">
-                    Detecting Patterns: Correlation
-                    </a>
-                </h3>
-                    (Not covered Summer 2017.)
-                    <br />
-
-                <hr>
+                </p>
             </div>
-                <h2>
-                    Other Material
-                </h2>
-                <ul>
-                    <li>
-                        <a href="Syllabus2017_SU.docx">
-                            Syllabus
-                        </a>
-                    </li>
+            <img class="hero-art" src="graphics/hero.svg"
+                 width="560" height="400"
+                 alt="A histogram under a normal curve, with the bands one, two, and three standard deviations from the mean shaded">
+        </section>
 
-                    <li>
-                        <a href="Possibilities.pptx">
-                            Possibilities powerpoint
-                        </a>
-                    </li>
+        <figure class="feature-card quote-card">
+            <figcaption>
+                &ldquo;Be able to analyze statistics, which can be used to
+                support or undercut almost any argument.&rdquo;
+                <cite>Marilyn vos Savant</cite>
+            </figcaption>
+        </figure>
 
-                    <li>
-                        <a href="Problems3S2017.html">
-                            Problem set 3
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Probabilities.pptx">
-                            Probabilities powerpoint
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                            href="https://www.khanacademy.org/math/precalculus/prob-comb/basic-prob-precalc/v/basic-probability"> 
-                        Khan Academy Course on Basic Probability
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                            href="https://www.khanacademy.org/math/statistics-probability/probability-library/basic-set-ops/v/intersection-and-union-of-sets">
-                            Khan Academy on Set Theory
-                        </a>
-                    </li>
-                    <li>
-                    <a
-                            href="https://www.khanacademy.org/math/statistics-probability">
-                        Khan Academy Course on Statistics and Probability
-                    </a>
-                    </li>
-
-                    <li>
-                    <a
-                            href="https://www.khanacademy.org/partner-content/pixar/pattern/dino/a/start-here-patterns">
-                        Use random patterns to create a dinosaur!
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="StudentPerformance.xlsx">
-                        Student Performance Statistical Spreadsheet
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="StatsStuff.xlsx">
-                        More stats in Excel
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="StdDev.xlsx">
-                        Standard Deviation Spreadsheet
-                    </a>
-                    </li>
-
-                    <li>
-                        <a href="Test1Su2017.html">
-                            Test 1, Summer 2017
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="quiz2Su2017.html">
-                            Test 2, Summer 2017
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="quiz3Su2017.html">
-                            Test 3, Summer 2017
-                        </a>
-                    </li>
-                </ul>
-
+        <h2 id="topics" class="section-head">
+            Topics
+        </h2>
+        <div class="topic-grid">
+            <a class="topic-card" href="Introduction.html">
+                <img src="graphics/topics/introduction.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 1</span>
+                    <span class="topic-title">Introduction</span>
+                </span>
+            </a>
+            <a class="topic-card" href="SetTheory.html">
+                <img src="graphics/topics/sets.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 2</span>
+                    <span class="topic-title">Basic Set Theory</span>
+                </span>
+            </a>
+            <a class="topic-card" href="Possibilities.html">
+                <img src="graphics/topics/possibilities.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 3</span>
+                    <span class="topic-title">Possibilities</span>
+                </span>
+            </a>
+            <a class="topic-card" href="PascalsTriangle.html">
+                <img src="graphics/topics/pascal.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 3 &middot; extra</span>
+                    <span class="topic-title">Pascal's Triangle</span>
+                </span>
+            </a>
+            <a class="topic-card" href="Probability.html">
+                <img src="graphics/topics/probability.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 4</span>
+                    <span class="topic-title">Probabilities</span>
+                </span>
+            </a>
+            <a class="topic-card" href="DescribingNominal.html">
+                <img src="graphics/topics/nominal.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 5</span>
+                    <span class="topic-title">Describing Nominal and Ordinal Data</span>
+                    <span class="topic-note">Chapter 2 of our textbook.</span>
+                </span>
+            </a>
+            <a class="topic-card" href="DescribingInterval.html">
+                <img src="graphics/topics/interval.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 6</span>
+                    <span class="topic-title">Describing Interval and Ratio Data</span>
+                    <span class="topic-note">Chapters 3 &amp; 4 of our textbook.</span>
+                </span>
+            </a>
+            <a class="topic-card" href="GoodnessChi.html">
+                <img src="graphics/topics/chifit.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 7</span>
+                    <span class="topic-title">Finding Differences with Nominal Data: Chi-Square Test of Fit</span>
+                    <span class="topic-note">Chapter 7 of our textbook.</span>
+                </span>
+            </a>
+            <div class="topic-card pending">
+                <img src="graphics/topics/chiindep.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 8</span>
+                    <span class="topic-title">Finding Differences with Nominal Data: Chi-Square Test of Independence</span>
+                    <span class="topic-note">Chapter 8 of our textbook.</span>
+                    <span class="topic-note">Notes to come.</span>
+                </span>
             </div>
+            <a class="topic-card" href="ZTestTTest.html">
+                <img src="graphics/topics/ztest.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 9</span>
+                    <span class="topic-title">Finding Differences with Interval and Ratio Data: One Sample <i>z</i> and <i>t</i> Tests</span>
+                    <span class="topic-note">Chapter 9 of our textbook.</span>
+                </span>
+            </a>
+            <a class="topic-card" href="FatTails.html">
+                <img src="graphics/topics/fattails.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 10</span>
+                    <span class="topic-title">Fat Tails</span>
+                </span>
+            </a>
+            <a class="topic-card" href="Fallacies.html">
+                <img src="graphics/topics/fallacies.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 11</span>
+                    <span class="topic-title">Statistical Fallacies</span>
+                </span>
+            </a>
+            <div class="topic-card pending">
+                <img src="graphics/topics/distributions.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 12</span>
+                    <span class="topic-title">Probability Distributions</span>
+                    <span class="topic-note">Notes to come.</span>
+                </span>
+            </div>
+            <a class="topic-card" href="ProbabilityInterps.html">
+                <img src="graphics/topics/interps.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 13</span>
+                    <span class="topic-title">Interpretations of Probability</span>
+                    <span class="topic-note">Not covered Summer 2017.</span>
+                </span>
+            </a>
+            <a class="topic-card" href="StatsQuickSummary.html">
+                <img src="graphics/topics/summary.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 14</span>
+                    <span class="topic-title">Statistics: Characteristics of a Distribution</span>
+                    <span class="topic-note">Not covered Summer 2017.</span>
+                </span>
+            </a>
+            <a class="topic-card" href="Sampling.html">
+                <img src="graphics/topics/sampling.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 15</span>
+                    <span class="topic-title">Sampling</span>
+                    <span class="topic-note">Not covered Summer 2017.</span>
+                </span>
+            </a>
+            <a class="topic-card" href="Correlation.html">
+                <img src="graphics/topics/correlation.svg" width="48" height="48" alt="">
+                <span class="topic-text">
+                    <span class="topic-num">Topic 16</span>
+                    <span class="topic-title">Detecting Patterns: Correlation</span>
+                    <span class="topic-note">Not covered Summer 2017.</span>
+                </span>
+            </a>
+        </div>
+
+        <h2 id="materials" class="section-head">
+            Other Material
+        </h2>
+        <div class="link-grid">
+            <a class="link-card" href="Syllabus2017_SU.docx">
+                <span class="tag">Summer 2017</span>
+                Syllabus
+            </a>
+            <a class="link-card" href="Possibilities.pptx">
+                <span class="tag">Slides</span>
+                Possibilities PowerPoint
+            </a>
+            <a class="link-card" href="Probabilities.pptx">
+                <span class="tag">Slides</span>
+                Probabilities PowerPoint
+            </a>
+            <a class="link-card" href="Problems3S2017.html">
+                <span class="tag">Practice</span>
+                Problem Set 3
+            </a>
+            <a class="link-card" href="StudentPerformance.xlsx">
+                <span class="tag">Spreadsheet</span>
+                Student Performance Statistical Spreadsheet
+            </a>
+            <a class="link-card" href="StatsStuff.xlsx">
+                <span class="tag">Spreadsheet</span>
+                More Stats in Excel
+            </a>
+            <a class="link-card" href="StdDev.xlsx">
+                <span class="tag">Spreadsheet</span>
+                Standard Deviation Spreadsheet
+            </a>
+            <a class="link-card" href="Test1Su2017.html">
+                <span class="tag">Summer 2017</span>
+                Test 1
+            </a>
+            <a class="link-card" href="quiz2Su2017.html">
+                <span class="tag">Summer 2017</span>
+                Test 2
+            </a>
+            <a class="link-card" href="quiz3Su2017.html">
+                <span class="tag">Summer 2017</span>
+                Test 3
+            </a>
+            <a class="link-card" href="https://www.khanacademy.org/math/precalculus/prob-comb/basic-prob-precalc/v/basic-probability">
+                <span class="tag">Khan Academy</span>
+                Course on Basic Probability
+            </a>
+            <a class="link-card" href="https://www.khanacademy.org/math/statistics-probability/probability-library/basic-set-ops/v/intersection-and-union-of-sets">
+                <span class="tag">Khan Academy</span>
+                Set Theory
+            </a>
+            <a class="link-card" href="https://www.khanacademy.org/math/statistics-probability">
+                <span class="tag">Khan Academy</span>
+                Course on Statistics and Probability
+            </a>
+            <a class="link-card" href="https://www.khanacademy.org/partner-content/pixar/pattern/dino/a/start-here-patterns">
+                <span class="tag">Khan Academy</span>
+                Use Random Patterns to Create a Dinosaur!
+            </a>
+        </div>
+
+        <footer class="site-footer">
+            <p>
+                Introduction to Statistics and Probability &middot;
+                <a href="about.html">About</a> &middot;
+                <a href="https://github.com/gcallah/statistics">GitHub</a>
+            </p>
+        </footer>
 
     </body>
 </html>

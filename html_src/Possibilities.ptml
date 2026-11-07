@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Possibilities
         </title>
@@ -18,8 +19,8 @@
             Tree Diagrams
             </summary>
             <p>
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/LeBron_James_vs._Steph_Curry_%2827676810241%29.jpg/220px-LeBron_James_vs._Steph_Curry_%2827676810241%29.jpg">
+            <img width="220"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/LeBron_James_vs._Steph_Curry_%2827676810241%29.jpg/250px-LeBron_James_vs._Steph_Curry_%2827676810241%29.jpg">
             <br />
             <br />
             <b>Example:</b> We posit that two teams are evenly matched, but

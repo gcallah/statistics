@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Introduction
         </title>
@@ -156,8 +157,8 @@
                     <li>
                     number line
                     <figure>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Number-line.svg/750px-Number-line.svg.png">
+                        <img width="750"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Number-line.svg/960px-Number-line.svg.png">
                     </figure>
                     </li>
                     <li>
@@ -195,7 +196,12 @@
                 </ul>
             </details>
 
+        <details>
+            <summary class="sum1">
+                Quiz
+            </summary>
 <!--include quizzes/quiz_intro.qhtm -->
+        </details>
 
             <details>
                 <summary class="sum1">

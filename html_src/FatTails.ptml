@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Fat Tails
         </title>
@@ -13,8 +13,8 @@
             Fat Tails
         </h1>
         <center>
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cauchy_pdf.svg/360px-Cauchy_pdf.svg.png">
+            <img width="360"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cauchy_pdf.svg/500px-Cauchy_pdf.svg.png">
         </center>
         <details>
             <summary class="sum1">

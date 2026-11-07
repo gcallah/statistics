@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
         </title>
     </head>
@@ -11,8 +12,8 @@
         <h1>Probability Basics</h1>
 
         <center>
-        <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/6sided_dice.jpg/300px-6sided_dice.jpg">
+        <img width="300"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/6sided_dice.jpg/330px-6sided_dice.jpg">
         </center>
         <br>
         <p>
@@ -74,8 +75,8 @@
                     Expectations ( =expected values ):
                 </summary>
                 <p>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Beta_first_moment.svg/308px-Beta_first_moment.svg.png">
+                <img width="308"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Beta_first_moment.svg/330px-Beta_first_moment.svg.png">
                 <br>
                 Expected value of a real variable <em>X</em> is defined as
                 <br>

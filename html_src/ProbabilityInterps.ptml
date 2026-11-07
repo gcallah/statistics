@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--include head.txt -->
+        <title>
+            Interpretations of Probability
+        </title>
+    </head>
+
+    <body>
+
+<!--include menu.txt -->
+        <h1>
+            Interpretations of Probability
+        </h1>
+
+            <h2>
+                The Problem
+            </h2>
+
+                <ul>
+                    <li>Someone taking an English exam about one of 20 novels
+                        chooses which ones to study. If she chooses two, what is
+                        the probability she has picked correctly?
+                        <br>
+                        (Here we are assuming each novel is equally likely to
+                        be picked by the examiners.)
+                        <br>
+                        <b>Classical</b>.
+                    <li>Someone says, "Well, I don't need to rush to get my
+                        husband: the train is late 80% of the time."
+                        <br>
+                        <b>Frequency</b>.
+                    <li>A businessperson says "The odds are 2-1 I will make a
+                        profit this year." What does that mean?
+                        <br>
+                        <b>Subjective</b>.
+                    <li>The issue of one-off events.
+                </ul>
+
+                <br>
+            <hr>
+            <h2>
+                Classical
+            </h2>
+                <p>
+                <img width="300"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/6sided_dice.jpg/330px-6sided_dice.jpg">
+                <br>
+                </p>
+
+                <p>
+                    The classical interpretation of probability deals with events
+                    that are equally likely. We count the number of possible
+                    outcomes, which we will call <em>n</em>, and then say that the
+                    likelihood of event <em>e</em> occurring is <em>1/n</em>.
+                    <br>
+                    <br>
+                </p>
+    
+                <h3>
+                    Probability Rules
+                </h3>
+
+                <ul>
+                    <li>If there are <em>n</em> equally likely possibilities,
+                        of which one must occur and <em>s</em> are regarded as
+                        favorable, then the probability of success is
+                        <em>s/n</em>.
+                        <br><b>Example:</b> My team plays well in bad weather,
+                        and will likely wind if the weather is bad. It plays
+                        tomorrow, and tomorrow there are equally likely chances
+                        of a rainy day, a snowy day, or a nice, sunny day. Two
+                        of those events represent "success," so the probability of my
+                        team winning is 2/3.
+                    <li>If there are <em>n</em> equally likely
+                        possibilities, which one must occur, then each
+                        possibility has the probability 1/n.
+                </ul>
+                <br>
+
+                <h3>
+                    Using these rules
+                </h3>
+                <p>
+                    What are the of drawing two red cards in a row
+                    from a normal deck of cards?
+                    <br>
+                    <br>
+                    Let's use our knowledge from the previous material. The
+                    total number of possibilities is 52 <em>choose</em> 2,
+                    while the number of favorable possiblities is 26
+                    <em>choose</em> 2. So the odds are 25 / 102.
+                    <br>
+                    <br>
+                    Why is it not just 1/2 * 1/2? Because once we have drawn
+                    are red card, there are now fewer red cards in the deck!
+                    <br>
+                    Compare to coin flips.
+                    <br>
+                </p>
+                <p>
+                    <b>Problem:</b> A company produces cars. For every 12 cars
+                that go out, they inspect three. Only if there is a problem in
+                one of them do they inspect the rest. What is the probability
+                that a lot will go out with a defective car?
+                </p>
+
+                <h3>
+                    Odds and probabilities:
+                </h3>
+                <p>
+                    If the probability of rolling two sixes in a row is 1/36,
+                    then the odds for succes are the number of outcomes that
+                    result in success (1) versus the number that result in
+                    failure (35). Typically, here we would say, "The odds are
+                    35 to 1 against him."
+                    <br>
+                </p>
+
+                <h3>
+                    More information
+                </h3>
+                <p>
+                    <a
+                        href="http://plato.stanford.edu/entries/probability-interpret/#ClaPro">
+                    SEP on Classical theory
+                    </a>
+                </p>
+
+            <br>
+            <hr>
+            <h2>
+                Frequency
+            </h2>
+                <p>
+                <img width="350"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Travel_time_histogram_total_n_Stata.png/500px-Travel_time_histogram_total_n_Stata.png">
+    
+                </p>
+
+                <p>
+                The basic idea here is that the probability of some event
+                <em>e</em> is equivalent to the number of times we would expect to
+                see <em>e</em> if we repeatedly ran some process that sometimes
+                produces <em>e</em>.
+                <br>
+                If we repeatedly flip a fair coin, in the long run, we expect
+                to see a roughly equal number of heads and tails.
+                <br>
+                This is related to, but not the same as,
+                <a href="https://en.wikipedia.org/wiki/Law_of_large_numbers">
+                The Law of Large Numbers.
+                </a>
+                The frequentist interpretation says that the probability of
+                some event simply <em>is</em> its rate of occurence in the long
+                run, while the Law of Large Numbers relies on there being
+                something else that is the true probability, and that as our
+                sample gets larger, we move towards that true probability.
+
+                <br>
+                </p>
+
+                <h3>
+                    Using "similar" events to determine frequency
+                </h3>
+                <p>
+                    "When something happens just once, the frequency
+                    interpretation lives us no choice but to refer to a set
+                    of similar situations." -- Freund, p. 50
+                    <br>
+                    <br>
+                    But just what situations are "similar"?
+                </p>
+                <ul>
+                    <li>Is the American Republic "similar" to the Roman
+                        Republic?
+                    <li>Is rabies in a population of racoons "similar" to
+                        rabies in a populations of skunks?
+                    <li>Is the 2016 presidential election "similar" to the 1964 
+                        presidential election?
+                    <li>Is this particular cancer patient "similar" to other
+                        cancer patients?
+                    <li>Is this team's attempt to come back from a 3-1 defecit
+                        "similar" to others team's attempts?
+                </ul>
+
+                <h3>
+                    More information
+                </h3>
+                <p>
+                <a href="https://en.wikipedia.org/wiki/Frequentist_probability">
+                Wikipedia on frequentist propability.
+                </a>
+                </p>
+
+            <br>
+            <hr>
+            <h2>
+                Subjective
+            </h2>
+                <p>
+                <img width="260"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Thinker%2C_Rodin.jpg/330px-The_Thinker%2C_Rodin.jpg">
+                <br>
+                </p>
+    
+                <p>
+                    What odds would you accept to bet on event <em>a</em>
+                    occuring as opposed to event <em>b</em> occurring?
+                    <br>
+                    <br>
+                    "If a person feels that <em>a</em> to <em>b</em> are fair
+                    odds for betting on a success of a given kind, he is, in
+                    fact, assigning to such a success a subjective...
+                    probability:
+                    <br><em>p = a / (a + b)</em>
+                    <br>
+                    <br>
+                    <b>Example:</b> If I bet on the Jets winning this weekend
+                    at 3 to 2 odds, I am assigning a 3/5 (60%) chance the Jets
+                    will win.
+                    <br>
+                    <br>
+                    If I am willing to give odds of 100-to-1, I think the
+                    likelihood of succes is 100 / (100 + 1) (99%). If I give
+                    odds of 1000-to-1, I think likelihood of succes is 1000 /
+                    (1000 + 1) (99.9%).
+                </p>
+
+            <br>
+            <hr>
+            <h2>
+                Axiomatic
+            </h2>
+            <p>
+                Axiomatic probability is not an interpretation of probability
+                at all: it deliberately ignores the matter of interpretation
+                and simply tries to set probability theory on a sound axiomatic
+                basis.
+            </p>
+
+            <h3>
+                The Axioms of Probability
+            </h3>
+            <ol>
+                <li>The probability of an event must be 0 or greater:
+                <br>
+                P(A) &ge; 0 for any event A.
+                <li>The probability of the sample space is 1:
+                <br>
+                P(S) = 1
+                <li>If two events A and B are mutually exclusive, the
+                probability that one or the other will occur is the sum of
+                their probabilities:
+                <br>
+                P(A &union; B) = P(A) + P(B)
+            </ol>
+
+
+            <br>
+            <hr>
+            <h2>
+                One-off events
+            </h2>
+                <p>
+                "many of the probailities which we use to express our faith in
+                predictions, judgments, or decisions, are simply <em>'success
+                ratios' that apply to the method we have employed</em>. -- Freund,
+                <em>Introduction to Probability</em>, p. 51
+                <br>
+                <br>
+                </p>
+
+    </body>
+</html>

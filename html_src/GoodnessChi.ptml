@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Finding Differences with Nominal Data I: Goodness-of-Fit Chi-Square
         </title>
@@ -16,7 +17,7 @@
             
             <figure>
                 <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Chi-square_pdf.svg/600px-Chi-square_pdf.svg.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Chi-square_pdf.svg/960px-Chi-square_pdf.svg.png"
                     width="400" height="266">
                 <figcaption>
                     &chi;<sup>2</sup> probability density function

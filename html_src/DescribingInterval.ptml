@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Describing Interval and Ratio Data
         </title>
@@ -117,8 +118,8 @@
                     <li>
                         <b>Variance</b>
                         <br />
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Variance_visualisation.svg/220px-Variance_visualisation.svg.png">
+                        <img width="220"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Variance_visualisation.svg/250px-Variance_visualisation.svg.png">
                 
                         <br>
                         The average of the squared distance of all data
@@ -150,8 +151,8 @@
                         <br />
                         The square root of the variance.
                         <figure>
-                        <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/325px-Standard_deviation_diagram.svg.png">
+                        <img width="325"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/330px-Standard_deviation_diagram.svg.png">
                         </figure>
                     </li>
                 </ul>
@@ -383,7 +384,12 @@
             </details>
         </details>
 
+        <details>
+            <summary class="sum1">
+                Quiz
+            </summary>
 <!--include quizzes/quiz_vari.qhtm -->
+        </details>
 
     </body>
 </html>

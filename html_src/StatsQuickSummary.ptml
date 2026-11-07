@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Introduction to Statistics
         </title>
@@ -15,7 +15,7 @@
 
         <figure>
             <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_Normal_Distribution.svg/800px-The_Normal_Distribution.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_Normal_Distribution.svg/960px-The_Normal_Distribution.svg.png"
             height="300" width="400">
             <figcaption>
                 The normal distribution
@@ -51,8 +51,8 @@
                     Histograms
                 </summary>
                 <p>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Black_cherry_tree_histogram.svg/216px-Black_cherry_tree_histogram.svg.png">
+                <img width="216"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Black_cherry_tree_histogram.svg/250px-Black_cherry_tree_histogram.svg.png">
                 </p>
             </details>
 
@@ -75,7 +75,7 @@
             </summary>
         <p>
         <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Comparison_mean_median_mode.svg/512px-Comparison_mean_median_mode.svg.png"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Comparison_mean_median_mode.svg/960px-Comparison_mean_median_mode.svg.png"
         height="270" width="360">
         </p>
 
@@ -153,8 +153,8 @@
                     <a href="https://en.wikipedia.org/wiki/Variance">Variance</a>
                 </summary>
                 <p>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Variance_visualisation.svg/220px-Variance_visualisation.svg.png">
+                <img width="220"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Variance_visualisation.svg/250px-Variance_visualisation.svg.png">
         
                 <br>
                 The average of the squared distance of all data points from the mean.
@@ -191,8 +191,8 @@
                     Standard Deviation
                 </summary>
                 <p>
-                <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/325px-Standard_deviation_diagram.svg.png">
+                <img width="325"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/330px-Standard_deviation_diagram.svg.png">
                 </p>
             </details>
         </details>

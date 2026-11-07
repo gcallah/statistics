@@ -1,14 +1,12 @@
-    <div id="header">
-        <div id="logo">
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/220px-Linear_regression.svg.png"
-            height="64" width="64"
-            max-height=100%>
-        </div>
-        <div id="user-tools">
+    <header id="header">
+        <a id="logo" href="index.html">
+            <img src="graphics/logo.svg" width="40" height="40" alt="">
+            <span class="brand-text">Statistics &amp; Probability</span>
+        </a>
+        <nav id="user-tools">
             <a href="index.html">Home</a>
-            &nbsp; &nbsp; 
+            <a href="index.html#topics">Topics</a>
+            <a href="index.html#materials">Materials</a>
             <a href="about.html">About</a>
-        </div>
-    </div>
-
+        </nav>
+    </header>

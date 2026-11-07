@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <!--include head.txt -->
         <title>
             Pascal's Triangle
         </title>
@@ -16,7 +17,7 @@
         <p>
         <center>
         <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pascal%27s_triangle_5.svg/540px-Pascal%27s_triangle_5.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pascal%27s_triangle_5.svg/960px-Pascal%27s_triangle_5.svg.png"
             height="195" width="270">
         </center>
         </p>
@@ -32,8 +33,8 @@
         </h2>
         <p>
 
-        <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/On-Off_Switch.jpg/100px-On-Off_Switch.jpg">
+        <img width="100"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/On-Off_Switch.jpg/120px-On-Off_Switch.jpg">
         </p>
 
         <ul>
@@ -69,8 +70,8 @@
         </h2>
         <p>
 
-        <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/PascalTriangleAnimated2.gif/220px-PascalTriangleAnimated2.gif">
+        <img width="220"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/PascalTriangleAnimated2.gif/250px-PascalTriangleAnimated2.gif">
 
         <br>
         <br>
@@ -110,8 +111,8 @@
                 + 3b<sup>4</sup></em>
             <br>
             <br>
-            <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Binomial_theorem_visualisation.svg/512px-Binomial_theorem_visualisation.svg.png">
+            <img width="512"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Binomial_theorem_visualisation.svg/960px-Binomial_theorem_visualisation.svg.png">
             <br>
             <br>
     
